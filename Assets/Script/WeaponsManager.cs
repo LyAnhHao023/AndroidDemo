@@ -57,6 +57,11 @@ public class WeaponsManager : MonoBehaviour
 
     //private void Start()
     //{
+    //    AddWeapon(BazokaWeapon);
+    //}
+
+    //private void Start()
+    //{
     //    //weapons_lst.First().weaponObject.GetComponent<WeaponBase>().LevelUp();
     //    //weapons_lst.First().weaponObject.GetComponent<WeaponBase>().LevelUp();
     //    //weapons_lst.First().weaponObject.GetComponent<WeaponBase>().LevelUp();

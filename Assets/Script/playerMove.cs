@@ -5,6 +5,8 @@ using UnityEngine;
 public class playerMove : MonoBehaviour
 {
 
+    [SerializeField] FixedJoystick joystick;
+
     private Animator animation;
 
     //Ẩn đi phần chỉnh sửa trên Inspector
@@ -26,25 +28,27 @@ public class playerMove : MonoBehaviour
 
     private void Update()
     {
+
         if(isCanMove)
         {
-            moveInput.x = Input.GetAxis("Horizontal");
-            moveInput.y = Input.GetAxis("Vertical");
+            moveInput.x =joystick.Horizontal;
+            moveInput.y = joystick.Vertical;
             transform.position += moveInput * player.characterStats.speed * Time.deltaTime;
 
             animation.SetFloat("Speed", moveInput.sqrMagnitude);
 
-
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (mousePos.x >transform.position.x)
+            if (moveInput.x != 0)
             {
-                animation.transform.rotation = Quaternion.Euler(0, 0, 0);
-                scaleX = 1;
-            }
-            else
-            {
-                animation.transform.rotation = Quaternion.Euler(0, 180, 0);
-                scaleX = -1;
+                if (moveInput.x > 0)
+                {
+                    animation.transform.rotation = Quaternion.Euler(0, 0, 0);
+                    scaleX = 1;
+                }
+                else
+                {
+                    animation.transform.rotation = Quaternion.Euler(0, 180, 0);
+                    scaleX = -1;
+                }
             }
         }
     }

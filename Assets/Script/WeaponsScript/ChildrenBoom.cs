@@ -27,8 +27,8 @@ public class ChildrenBoom : MonoBehaviour
         exploderPrefab.SetActive(false);
         rb = GetComponent<Rigidbody2D>();
         timer = timeDisActive;
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        direction = (mousePos - transform.position).normalized;
+        EnemyBase enemy = FindEnemy();
+        direction = ((enemy==null?new Vector3(Random.Range(-1,2), Random.Range(-1, 2),0):enemy.transform.position) - transform.position).normalized;
         rb.AddForce(direction * 60f, ForceMode2D.Impulse);
         Invoke("StopMove", 0.2f);
 
@@ -43,6 +43,27 @@ public class ChildrenBoom : MonoBehaviour
             timer = timeDisActive;
             DisActivateGameObject();
         }
+    }
+
+    private EnemyBase FindEnemy()
+    {
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, 20f);
+        float minDis = 100f;
+        EnemyBase enemyNear = null;
+        foreach (Collider2D item in enemies)
+        {
+            EnemyBase enemy = item.GetComponent<EnemyBase>();
+            if (enemy != null)
+            {
+                float dis = Vector2.Distance(transform.position, enemy.transform.position);
+                if (minDis > dis)
+                {
+                    minDis = dis;
+                    enemyNear = enemy;
+                }
+            }
+        }
+        return enemyNear;
     }
 
     public void StopMove()

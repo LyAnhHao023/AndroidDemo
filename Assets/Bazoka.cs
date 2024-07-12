@@ -13,7 +13,7 @@ public class Bazoka : WeaponBase
     GameObject fireEffect;
 
 
-    float bulletForce = 6;
+    float bulletForce = 20;
 
     CharacterStats characterStats;
 
@@ -37,15 +37,50 @@ public class Bazoka : WeaponBase
 
     public override void Update()
     {
+        bool isRotation = false;
+
         if (Time.deltaTime != 0)
-            RotationGun();
-        base.Update();
+        {
+            isRotation = RotationGun();
+        }
+        timer -= Time.deltaTime;
+
+        if (timer <= 0 && isRotation)
+        {
+            timer = weaponStats.timeAttack;
+            Attack();
+        }
     }
 
-    private void RotationGun()
+    private EnemyBase FindEnemy()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 lookDir = mousePos - transform.position;
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, 20f);
+        float minDis = 100f;
+        EnemyBase enemyNear = null;
+        foreach (Collider2D item in enemies)
+        {
+            EnemyBase enemy = item.GetComponent<EnemyBase>();
+            if (enemy != null)
+            {
+                float dis = Vector2.Distance(transform.position, enemy.transform.position);
+                if (minDis > dis)
+                {
+                    minDis = dis;
+                    enemyNear = enemy;
+                }
+            }
+        }
+        return enemyNear;
+    }
+
+    private bool RotationGun()
+    {
+        EnemyBase enemy = FindEnemy();
+        if (enemy == null)
+        {
+            return false;
+        }
+        Vector2 lookDir = enemy.transform.position - transform.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
 
         Quaternion rotation = Quaternion.Euler(0, 0, angle);
@@ -60,7 +95,7 @@ public class Bazoka : WeaponBase
             spriteRenderer.flipY = false;
             firePos.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-
+        return true;
     }
 
     public override void Attack()

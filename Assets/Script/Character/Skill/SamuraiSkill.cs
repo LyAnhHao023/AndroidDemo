@@ -16,8 +16,12 @@ public class SamuraiSkill : MonoBehaviour
     float timer = 0;
     SkillInfo skillInfor;
     CharacterStats characterStats;
+    SkillButton skillButton;
+
     private void Start()
     {
+        skillButton = GameObject.FindGameObjectWithTag("SkillButton").GetComponent<SkillButton>();
+
         skillCooldownUI = GameObject.FindGameObjectWithTag("SkillCooldown").GetComponent<SkillCooldownUI>();
         skillInfor = GetComponentInParent<CharacterInfo_1>().skillInfor;
         characterStats = GetComponentInParent<CharacterInfo_1>().characterStats;
@@ -30,11 +34,16 @@ public class SamuraiSkill : MonoBehaviour
     {
         timer -= Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.Q) && timer <= 0)
+        if (skillButton.isUseSkill && timer <= 0)
         {
             timer = skillInfor.cdSkill;
             skillCooldownUI.SetCooldown(timer);
             Skill();
+            skillButton.isUseSkill=false;
+        }
+        else
+        {
+            skillButton.isUseSkill = false;
         }
 
     }
