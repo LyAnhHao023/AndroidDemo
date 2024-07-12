@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: 7d7d93434443d4444b72c688d98225ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2098671005523918592
+    second: SpikePlant_0
+  - first:
+      213: 1122214600857572781
+    second: SpikePlant_1
+  - first:
+      213: 2368944113684803798
+    second: SpikePlant_2
+  - first:
+      213: 6914505561693650630
+    second: SpikePlant_3
+  - first:
+      213: -5787029199548794308
+    second: SpikePlant_4
+  - first:
+      213: 3530382419447542619
+    second: SpikePlant_5
+  - first:
+      213: 760854489271804211
+    second: SpikePlant_6
+  - first:
+      213: 4179714946729229583
+    second: SpikePlant_7
+  - first:
+      213: -5783920365290349626
+    second: SpikePlant_8
+  - first:
+      213: -2914179752208509619
+    second: SpikePlant_9
+  - first:
+      213: -8085672667426409953
+    second: SpikePlant_10
+  - first:
+      213: 8054645942115779180
+    second: SpikePlant_11
+  - first:
+      213: -7938603458998070322
+    second: SpikePlant_12
+  - first:
+      213: -1816850058091546205
+    second: SpikePlant_13
+  - first:
+      213: 8355519314222132701
+    second: SpikePlant_14
+  - first:
+      213: 4351587154515433010
+    second: SpikePlant_15
+  - first:
+      213: -384847078715054855
+    second: SpikePlant_16
+  - first:
+      213: -7455224063548113912
+    second: SpikePlant_17
+  - first:
+      213: 565445001311614926
+    second: SpikePlant_18
+  - first:
+      213: 8501444829694314020
+    second: SpikePlant_19
+  - first:
+      213: -7671810471168528454
+    second: SpikePlant_20
+  - first:
+      213: -173531991414641802
+    second: SpikePlant_21
+  - first:
+      213: 3825554811632020477
+    second: SpikePlant_22
+  - first:
+      213: 4212562371504008847
+    second: SpikePlant_23
+  - first:
+      213: 1369692161416200135
+    second: SpikePlant_24
+  - first:
+      213: 3815590634384071767
+    second: SpikePlant_25
+  - first:
+      213: -5188027701902021097
+    second: SpikePlant_26
+  - first:
+      213: 352684309476907611
+    second: SpikePlant_27
+  - first:
+      213: 8014526810048385203
+    second: SpikePlant_28
+  - first:
+      213: -7584810426278919473
+    second: SpikePlant_29
+  - first:
+      213: -54129715730472751
+    second: SpikePlant_30
+  - first:
+      213: 7072510233921643105
+    second: SpikePlant_31
+  - first:
+      213: -6296914255056625133
+    second: SpikePlant_32
+  - first:
+      213: -895965185869582619
+    second: SpikePlant_33
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpikePlant_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea51d452378856740a268a133f4dcbae
+      internalID: -1511554242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikePlant_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7338127517a7441419deeec8870e2a79
+      internalID: -426722305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikePlant_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0e68a697cf2b9449e548ae2d6a5bb2
+      internalID: -1220794103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikePlant_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba1cd8b5be944b418cbd8259c788c89
+      internalID: 1559430446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikePlant_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0ef14ad9f4abd4e941a7aa20da07ff
+      internalID: 295397019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikePlant_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f893f056b18db14d90693de257ea6ea
+      internalID: 299304473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0f56af53f2ff7f1498e6c62d72f01653
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpikePlant_0: -1511554242
+      SpikePlant_1: -426722305
+      SpikePlant_2: -1220794103
+      SpikePlant_3: 1559430446
+      SpikePlant_4: 295397019
+      SpikePlant_5: 299304473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

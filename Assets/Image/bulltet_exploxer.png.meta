@@ -1,0 +1,1772 @@
+fileFormatVersion: 2
+guid: 09a9212b4eef2d14bb0595ad90bf0b34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3203920768423307036
+    second: bulltet_exploxer_0
+  - first:
+      213: 7886215196470505117
+    second: bulltet_exploxer_1
+  - first:
+      213: 5077911411555000410
+    second: bulltet_exploxer_2
+  - first:
+      213: 7723148872614345969
+    second: bulltet_exploxer_3
+  - first:
+      213: -7846723250241323810
+    second: bulltet_exploxer_4
+  - first:
+      213: 5624565228170008631
+    second: bulltet_exploxer_5
+  - first:
+      213: -2278209308398316656
+    second: bulltet_exploxer_6
+  - first:
+      213: -6317281198407530558
+    second: bulltet_exploxer_7
+  - first:
+      213: 2554337625419106328
+    second: bulltet_exploxer_8
+  - first:
+      213: -7148429820288391177
+    second: bulltet_exploxer_9
+  - first:
+      213: 7842867846207765798
+    second: bulltet_exploxer_10
+  - first:
+      213: 7379156256443176477
+    second: bulltet_exploxer_11
+  - first:
+      213: 1003518161753486019
+    second: bulltet_exploxer_12
+  - first:
+      213: -4303693521838147344
+    second: bulltet_exploxer_13
+  - first:
+      213: 2277440683087549881
+    second: bulltet_exploxer_14
+  - first:
+      213: -1297425849035013867
+    second: bulltet_exploxer_15
+  - first:
+      213: -1492381974491960895
+    second: bulltet_exploxer_16
+  - first:
+      213: 8150627392145618075
+    second: bulltet_exploxer_17
+  - first:
+      213: -1666054062817979750
+    second: bulltet_exploxer_18
+  - first:
+      213: -206097026099633849
+    second: bulltet_exploxer_19
+  - first:
+      213: 7030792084953640874
+    second: bulltet_exploxer_20
+  - first:
+      213: 1790089920312706721
+    second: bulltet_exploxer_21
+  - first:
+      213: 7695964861725279902
+    second: bulltet_exploxer_22
+  - first:
+      213: 5849649088304300880
+    second: bulltet_exploxer_23
+  - first:
+      213: 8620053913101330967
+    second: bulltet_exploxer_24
+  - first:
+      213: 1382080661990243237
+    second: bulltet_exploxer_25
+  - first:
+      213: 5043225950922804767
+    second: bulltet_exploxer_26
+  - first:
+      213: -9116205698833790793
+    second: bulltet_exploxer_27
+  - first:
+      213: -6262632324847228735
+    second: bulltet_exploxer_28
+  - first:
+      213: -666234607946347040
+    second: bulltet_exploxer_29
+  - first:
+      213: -1168918096796486440
+    second: bulltet_exploxer_30
+  - first:
+      213: -3716696838255350733
+    second: bulltet_exploxer_31
+  - first:
+      213: -6183153181441990561
+    second: bulltet_exploxer_32
+  - first:
+      213: -108946624880346613
+    second: bulltet_exploxer_33
+  - first:
+      213: -2993833748041329172
+    second: bulltet_exploxer_34
+  - first:
+      213: 6839702806047150345
+    second: bulltet_exploxer_35
+  - first:
+      213: -541506784064903262
+    second: bulltet_exploxer_36
+  - first:
+      213: -7017324876291597188
+    second: bulltet_exploxer_37
+  - first:
+      213: -4590131277816925424
+    second: bulltet_exploxer_38
+  - first:
+      213: 5694678276650012325
+    second: bulltet_exploxer_39
+  - first:
+      213: -5415126977709741700
+    second: bulltet_exploxer_40
+  - first:
+      213: 4127583583465856996
+    second: bulltet_exploxer_41
+  - first:
+      213: 1914171338521880175
+    second: bulltet_exploxer_42
+  - first:
+      213: -6103820546332113807
+    second: bulltet_exploxer_43
+  - first:
+      213: 1812778342456512890
+    second: bulltet_exploxer_44
+  - first:
+      213: -8903795048756544278
+    second: bulltet_exploxer_45
+  - first:
+      213: 272557371951590346
+    second: bulltet_exploxer_46
+  - first:
+      213: 5843010193656711607
+    second: bulltet_exploxer_47
+  - first:
+      213: 7931474757504139793
+    second: bulltet_exploxer_48
+  - first:
+      213: -8916505220976695719
+    second: bulltet_exploxer_49
+  - first:
+      213: 1549448192915653749
+    second: bulltet_exploxer_50
+  - first:
+      213: 9095793696485582206
+    second: bulltet_exploxer_51
+  - first:
+      213: -1857352675120204893
+    second: bulltet_exploxer_52
+  - first:
+      213: -6132094080664462730
+    second: bulltet_exploxer_53
+  - first:
+      213: 7442645568402123349
+    second: bulltet_exploxer_54
+  - first:
+      213: -1634494727654436126
+    second: bulltet_exploxer_55
+  - first:
+      213: -957758477422241214
+    second: bulltet_exploxer_56
+  - first:
+      213: 3168119633316718160
+    second: bulltet_exploxer_57
+  - first:
+      213: -4333800229473678388
+    second: bulltet_exploxer_58
+  - first:
+      213: -3204908160020645970
+    second: bulltet_exploxer_59
+  - first:
+      213: -3876982726113415906
+    second: bulltet_exploxer_60
+  - first:
+      213: -8198274544997623371
+    second: bulltet_exploxer_61
+  - first:
+      213: 5270038120264216327
+    second: bulltet_exploxer_62
+  - first:
+      213: 3580538876804775541
+    second: bulltet_exploxer_63
+  - first:
+      213: 2490940861700353278
+    second: bulltet_exploxer_64
+  - first:
+      213: -2049204295176726364
+    second: bulltet_exploxer_65
+  - first:
+      213: -3950522279789663793
+    second: bulltet_exploxer_66
+  - first:
+      213: -4531706090131083768
+    second: bulltet_exploxer_67
+  - first:
+      213: 5607541083181955268
+    second: bulltet_exploxer_68
+  - first:
+      213: -7398481338704798086
+    second: bulltet_exploxer_69
+  - first:
+      213: 3011666560716814473
+    second: bulltet_exploxer_70
+  - first:
+      213: -8702882620876353332
+    second: bulltet_exploxer_71
+  - first:
+      213: -3180057779867665188
+    second: bulltet_exploxer_72
+  - first:
+      213: 4661949876035575779
+    second: bulltet_exploxer_73
+  - first:
+      213: -4845075923779183220
+    second: bulltet_exploxer_74
+  - first:
+      213: 8566154338289370191
+    second: bulltet_exploxer_75
+  - first:
+      213: 5096205617211289993
+    second: bulltet_exploxer_76
+  - first:
+      213: 2828916085209339662
+    second: bulltet_exploxer_77
+  - first:
+      213: -7847407393452926096
+    second: bulltet_exploxer_78
+  - first:
+      213: 4802823944673155116
+    second: bulltet_exploxer_79
+  - first:
+      213: 6577903298654891472
+    second: bulltet_exploxer_80
+  - first:
+      213: -5850995457954061865
+    second: bulltet_exploxer_81
+  - first:
+      213: -2309185765727473458
+    second: bulltet_exploxer_82
+  - first:
+      213: -5663878899270955855
+    second: bulltet_exploxer_83
+  - first:
+      213: -2936984752844953081
+    second: bulltet_exploxer_84
+  - first:
+      213: 1260742296378143299
+    second: bulltet_exploxer_85
+  - first:
+      213: 7077060345925329145
+    second: bulltet_exploxer_86
+  - first:
+      213: 3801265010680979056
+    second: bulltet_exploxer_87
+  - first:
+      213: -4233366446303437678
+    second: bulltet_exploxer_88
+  - first:
+      213: 8753666610208215292
+    second: bulltet_exploxer_89
+  - first:
+      213: 137661228739242926
+    second: bulltet_exploxer_90
+  - first:
+      213: -364932105180218504
+    second: bulltet_exploxer_91
+  - first:
+      213: 2648513163438072131
+    second: bulltet_exploxer_92
+  - first:
+      213: -6438376353509864016
+    second: bulltet_exploxer_93
+  - first:
+      213: -2939739962188894236
+    second: bulltet_exploxer_94
+  - first:
+      213: 4442362967721115369
+    second: bulltet_exploxer_95
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulltet_exploxer_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 529
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d1a549036983d0800000000000000
+      internalID: -3203920768423307036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 578
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e69ef20f6717d60800000000000000
+      internalID: 7886215196470505117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 526
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5063ae568d587640800000000000000
+      internalID: 5077911411555000410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 577
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcf2ab0bf22e2b60800000000000000
+      internalID: 7723148872614345969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 529
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc319217c6da1390800000000000000
+      internalID: -7846723250241323810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 577
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738561956487e0e40800000000000000
+      internalID: 5624565228170008631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 575
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0931ee854bc2260e0800000000000000
+      internalID: -2278209308398316656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 578
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818458f6984d27320800000000000000
+      internalID: 2554337625419106328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 527
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7a6e3d3fcabcc90800000000000000
+      internalID: -7148429820288391177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 479
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b947865ed68dc1170800000000000000
+      internalID: 8150627392145618075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 478
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92532138acf0e8e0800000000000000
+      internalID: -1666054062817979750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 434
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7412112c8dbc32df0800000000000000
+      internalID: -206097026099633849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 433
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf2a498624629160800000000000000
+      internalID: 7030792084953640874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 481
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a60f385c4da7d810800000000000000
+      internalID: 1790089920312706721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 433
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96060b444f8dca60800000000000000
+      internalID: 7695964861725279902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 445
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053c0116ad02e2150800000000000000
+      internalID: 5849649088304300880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 439
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71aee1bec5590a770800000000000000
+      internalID: 8620053913101330967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_27
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 441
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8ce95773bbc7180800000000000000
+      internalID: -9116205698833790793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_31
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 400
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ce8f1eae3ab6cc0800000000000000
+      internalID: -3716696838255350733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_32
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 397
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50e254f0f6013aa0800000000000000
+      internalID: -6183153181441990561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 394
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a77843f91fc7ef0800000000000000
+      internalID: -108946624880346613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_34
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 394
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce59b637114c376d0800000000000000
+      internalID: -2993833748041329172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 394
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901deabb6718bee50800000000000000
+      internalID: 6839702806047150345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 403
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013ff412ce39c40c0800000000000000
+      internalID: -4590131277816925424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_39
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 337
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae8bdd88bf870f40800000000000000
+      internalID: 5694678276650012325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_40
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 337
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79e9ff44ba99d4b0800000000000000
+      internalID: -5415126977709741700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 338
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef5739766f184930800000000000000
+      internalID: 4127583583465856996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_42
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 338
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66a4dfc0b0809a10800000000000000
+      internalID: 1914171338521880175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_43
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 337
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174c4237d8fda4ba0800000000000000
+      internalID: -6103820546332113807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 337
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7154a64c48482910800000000000000
+      internalID: 1812778342456512890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_45
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 302
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecfbf5d39d5f6480800000000000000
+      internalID: -8903795048756544278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_47
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 293
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b905e340da861150800000000000000
+      internalID: 5843010193656711607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_48
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 293
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112030ae442421e60800000000000000
+      internalID: 7931474757504139793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_49
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 299
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956a4c14eb5324480800000000000000
+      internalID: -8916505220976695719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 304
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574cb901ceeb08510800000000000000
+      internalID: 1549448192915653749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 245
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75a245ec20ca3e70800000000000000
+      internalID: 9095793696485582206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_52
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 242
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3b6d8259b5936e0800000000000000
+      internalID: -1857352675120204893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 238
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a18b04cec66eaa0800000000000000
+      internalID: -6132094080664462730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_54
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 244
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a6ebd26b6994760800000000000000
+      internalID: 7442645568402123349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_55
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 239
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e298e284bb1159e0800000000000000
+      internalID: -1634494727654436126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_56
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 242
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ad0ac3dbb55b2f0800000000000000
+      internalID: -957758477422241214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_57
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056a8c5650c67fb20800000000000000
+      internalID: 3168119633316718160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_58
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 195
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb07ba17af3bd3c0800000000000000
+      internalID: -4333800229473678388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_59
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 200
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7f7304201e583d0800000000000000
+      internalID: -3204908160020645970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_60
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 200
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d2fa170c0323ac0800000000000000
+      internalID: -3876982726113415906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_61
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 206
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b91a46dcb0e93e80800000000000000
+      internalID: -8198274544997623371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_62
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 212
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fad1f9fbfe22940800000000000000
+      internalID: 5270038120264216327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_68
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 105
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c83876b7ecf1dd40800000000000000
+      internalID: 5607541083181955268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_69
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 107
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ed429db60535990800000000000000
+      internalID: -7398481338704798086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_74
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 99
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d185d1e15d2ccb0800000000000000
+      internalID: -4845075923779183220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_81
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 104
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1693281a61dcea0800000000000000
+      internalID: -5850995457954061865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_83
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 109
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bccf1e462cd561b0800000000000000
+      internalID: -5663878899270955855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_85
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 98
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342fde8507e0f7110800000000000000
+      internalID: 1260742296378143299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_91
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bf89f0f208feaf0800000000000000
+      internalID: -364932105180218504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_92
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3412ca190b861c420800000000000000
+      internalID: 2648513163438072131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_93
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 19
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd05c681da46a6a0800000000000000
+      internalID: -6438376353509864016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_94
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 25
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe5bd6412f337d0800000000000000
+      internalID: -2939739962188894236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_95
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eefd5e159176ad30800000000000000
+      internalID: 4442362967721115369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 482
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dd517ac4f53934bb63601a19aab16c
+      internalID: -1979071731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_26
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 47
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a1c3187bb369c4f8b5aeb7c5472cff
+      internalID: -363744857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 576
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dc5cb134979154eac8f1d8ff38d9d1
+      internalID: -226877129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 528
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3280f0f44ea5ec41a37d686dbbd6157
+      internalID: 600906629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 527
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bde816f184d1eb4dbf1093c434b6a2a
+      internalID: -1915278334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 498
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c394841bf207774aab8d4f9e8f0b377
+      internalID: 267264054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulltet_exploxer_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 509
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2e822656484014a8ebc04da61e0be4
+      internalID: 563465257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 401dca98ae1ace849b37d65ef53bee65
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bulltet_exploxer_10: 600906629
+      bulltet_exploxer_11: -1915278334
+      bulltet_exploxer_12: 267264054
+      bulltet_exploxer_13: 563465257
+      bulltet_exploxer_25: -1979071731
+      bulltet_exploxer_26: -363744857
+      bulltet_exploxer_7: -226877129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

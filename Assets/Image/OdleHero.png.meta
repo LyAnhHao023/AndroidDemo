@@ -1,0 +1,2557 @@
+fileFormatVersion: 2
+guid: 255f0c07011f53843b13423fbf89f4db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4963270498523169569
+    second: OdleHero_0
+  - first:
+      213: 4114483149886029311
+    second: OdleHero_1
+  - first:
+      213: -8472887540511601989
+    second: OdleHero_2
+  - first:
+      213: -7903553613356435359
+    second: OdleHero_3
+  - first:
+      213: -490636994134450204
+    second: OdleHero_4
+  - first:
+      213: -2225360168953030069
+    second: OdleHero_5
+  - first:
+      213: 9199389749565760568
+    second: OdleHero_6
+  - first:
+      213: 2128031319048049959
+    second: OdleHero_7
+  - first:
+      213: 2177885323965070869
+    second: OdleHero_8
+  - first:
+      213: 1264566418366239162
+    second: OdleHero_9
+  - first:
+      213: 1952857848908972463
+    second: OdleHero_10
+  - first:
+      213: -3372491520748291566
+    second: OdleHero_11
+  - first:
+      213: -2717172967499383691
+    second: OdleHero_12
+  - first:
+      213: -5100982588827971019
+    second: OdleHero_13
+  - first:
+      213: 7276215122761255284
+    second: OdleHero_14
+  - first:
+      213: 7290823344743378792
+    second: OdleHero_15
+  - first:
+      213: 4752646555742031688
+    second: OdleHero_16
+  - first:
+      213: -7530150929438419697
+    second: OdleHero_17
+  - first:
+      213: -1564492688407794125
+    second: OdleHero_18
+  - first:
+      213: 8225786891978627330
+    second: OdleHero_19
+  - first:
+      213: -3102408133184260531
+    second: OdleHero_20
+  - first:
+      213: 6852512437371628896
+    second: OdleHero_21
+  - first:
+      213: -4345446761527226205
+    second: OdleHero_22
+  - first:
+      213: -2728086154489334269
+    second: OdleHero_23
+  - first:
+      213: -4827668484365568236
+    second: OdleHero_24
+  - first:
+      213: -2429222775843586535
+    second: OdleHero_25
+  - first:
+      213: -4584769244924835234
+    second: OdleHero_26
+  - first:
+      213: -5350730938402923115
+    second: OdleHero_27
+  - first:
+      213: -4810579034787429773
+    second: OdleHero_28
+  - first:
+      213: -4876881531372090576
+    second: OdleHero_29
+  - first:
+      213: 5494355377168693646
+    second: OdleHero_30
+  - first:
+      213: 7535464387264989566
+    second: OdleHero_31
+  - first:
+      213: -6648583762009746608
+    second: OdleHero_32
+  - first:
+      213: 6505510795026181601
+    second: OdleHero_33
+  - first:
+      213: -8940689234503615932
+    second: OdleHero_34
+  - first:
+      213: -6899592918203696929
+    second: OdleHero_35
+  - first:
+      213: 6719294317579070127
+    second: OdleHero_36
+  - first:
+      213: 2291992488788867422
+    second: OdleHero_37
+  - first:
+      213: -8711080454417772420
+    second: OdleHero_38
+  - first:
+      213: 1549758237829385975
+    second: OdleHero_39
+  - first:
+      213: 2061990475910224203
+    second: OdleHero_40
+  - first:
+      213: 6073074329586319638
+    second: OdleHero_41
+  - first:
+      213: -7111978236061374116
+    second: OdleHero_42
+  - first:
+      213: -1164777384700212344
+    second: OdleHero_43
+  - first:
+      213: 7281677552390218429
+    second: OdleHero_44
+  - first:
+      213: -6347895931510908568
+    second: OdleHero_45
+  - first:
+      213: 7843191216948918173
+    second: OdleHero_46
+  - first:
+      213: 8154559318576593424
+    second: OdleHero_47
+  - first:
+      213: -7756887304583621701
+    second: OdleHero_48
+  - first:
+      213: 4560484889212393397
+    second: OdleHero_49
+  - first:
+      213: -5596205724874633953
+    second: OdleHero_50
+  - first:
+      213: -4571963403917876242
+    second: OdleHero_51
+  - first:
+      213: 2518191028651057394
+    second: OdleHero_52
+  - first:
+      213: -2081813450901794820
+    second: OdleHero_53
+  - first:
+      213: 6729601905599416476
+    second: OdleHero_54
+  - first:
+      213: -1640392021419724010
+    second: OdleHero_55
+  - first:
+      213: -1473776210892190468
+    second: OdleHero_56
+  - first:
+      213: 6059451667509615069
+    second: OdleHero_57
+  - first:
+      213: 1161018968930011162
+    second: OdleHero_58
+  - first:
+      213: 3936139651488027891
+    second: OdleHero_59
+  - first:
+      213: 8662673368348044144
+    second: OdleHero_60
+  - first:
+      213: -9073302126410878166
+    second: OdleHero_61
+  - first:
+      213: 1058727718045966768
+    second: OdleHero_62
+  - first:
+      213: -4486834076254232517
+    second: OdleHero_63
+  - first:
+      213: 8553879452642319313
+    second: OdleHero_64
+  - first:
+      213: -3104445620295335886
+    second: OdleHero_65
+  - first:
+      213: -2737603590225519712
+    second: OdleHero_66
+  - first:
+      213: 1891606912837361255
+    second: OdleHero_67
+  - first:
+      213: 1334653789331028984
+    second: OdleHero_68
+  - first:
+      213: -4476318184204949658
+    second: OdleHero_69
+  - first:
+      213: 838350000874773257
+    second: OdleHero_70
+  - first:
+      213: -1447609554378160158
+    second: OdleHero_71
+  - first:
+      213: 1798488365235847576
+    second: OdleHero_72
+  - first:
+      213: -6084716762509461915
+    second: OdleHero_73
+  - first:
+      213: 6639828996347146929
+    second: OdleHero_74
+  - first:
+      213: 8995283350557995076
+    second: OdleHero_75
+  - first:
+      213: -8299077720732301568
+    second: OdleHero_76
+  - first:
+      213: 461360554512072027
+    second: OdleHero_77
+  - first:
+      213: 1985186493004308142
+    second: OdleHero_78
+  - first:
+      213: 6580409979345601506
+    second: OdleHero_79
+  - first:
+      213: -1102025631990129403
+    second: OdleHero_80
+  - first:
+      213: 3529546486618691396
+    second: OdleHero_81
+  - first:
+      213: -1401555217598466867
+    second: OdleHero_82
+  - first:
+      213: 6367213341838261185
+    second: OdleHero_83
+  - first:
+      213: -5828280414300334710
+    second: OdleHero_84
+  - first:
+      213: -3964852256187770186
+    second: OdleHero_85
+  - first:
+      213: -6639194387845869638
+    second: OdleHero_86
+  - first:
+      213: 8367702739872820319
+    second: OdleHero_87
+  - first:
+      213: 994627167641434500
+    second: OdleHero_88
+  - first:
+      213: 5680755484199053114
+    second: OdleHero_89
+  - first:
+      213: -660525506315955196
+    second: OdleHero_90
+  - first:
+      213: -3729116923709773007
+    second: OdleHero_91
+  - first:
+      213: -1436977203556118220
+    second: OdleHero_92
+  - first:
+      213: -1637073235666766367
+    second: OdleHero_93
+  - first:
+      213: 5982897437127603971
+    second: OdleHero_94
+  - first:
+      213: -234441520286537145
+    second: OdleHero_95
+  - first:
+      213: -2926263447710122207
+    second: OdleHero_96
+  - first:
+      213: 2335153819946375606
+    second: OdleHero_97
+  - first:
+      213: -2162237537276893932
+    second: OdleHero_98
+  - first:
+      213: 4043917292956255449
+    second: OdleHero_99
+  - first:
+      213: 799891822329094878
+    second: OdleHero_100
+  - first:
+      213: -2293592040860642485
+    second: OdleHero_101
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OdleHero_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1407
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12346acc83411e440800000000000000
+      internalID: 4963270498523169569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1407
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd794710a4991930800000000000000
+      internalID: 4114483149886029311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1407
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba09f55ca14a6a80800000000000000
+      internalID: -8472887540511601989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1407
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16872ac0ddfe05290800000000000000
+      internalID: -7903553613356435359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1407
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef53fad048e039f0800000000000000
+      internalID: -490636994134450204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1407
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a504087beed11e0800000000000000
+      internalID: -2225360168953030069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1279
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834ac3d9c3ccaaf70800000000000000
+      internalID: 9199389749565760568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1279
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725d3cab539488d10800000000000000
+      internalID: 2128031319048049959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1279
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e7978c927693e10800000000000000
+      internalID: 2177885323965070869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1279
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab19b912574ac8110800000000000000
+      internalID: 1264566418366239162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1279
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa18d0dedd1f91b10800000000000000
+      internalID: 1952857848908972463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1279
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21af7c184d08231d0800000000000000
+      internalID: -3372491520748291566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_12
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1279
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cb7ee0599aa4ad0800000000000000
+      internalID: -2717172967499383691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_13
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1279
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532d4739c5ba539b0800000000000000
+      internalID: -5100982588827971019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1151
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47982856a1f4af460800000000000000
+      internalID: 7276215122761255284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1151
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fed8f14353e2560800000000000000
+      internalID: 7290823344743378792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1151
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fccf1acdac4f140800000000000000
+      internalID: 4752646555742031688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1151
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05deb940a78f7790800000000000000
+      internalID: -7530150929438419697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1151
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ee1cd503ec94ae0800000000000000
+      internalID: -1564492688407794125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_19
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1151
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209537e989dd72270800000000000000
+      internalID: 8225786891978627330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1023
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46f4497d3802f4d0800000000000000
+      internalID: -3102408133184260531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1023
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d6b7071c3091f50800000000000000
+      internalID: 6852512437371628896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1023
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a05ccc813fd1b3c0800000000000000
+      internalID: -4345446761527226205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_23
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1023
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3067005b814e32ad0800000000000000
+      internalID: -2728086154489334269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_24
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1023
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417ba00771da00db0800000000000000
+      internalID: -4827668484365568236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_25
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1023
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91efd8581caa94ed0800000000000000
+      internalID: -2429222775843586535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_26
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1023
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a8e13b9a0af50c0800000000000000
+      internalID: -4584769244924835234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_27
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1023
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d1dc79f826eb5b0800000000000000
+      internalID: -5350730938402923115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 895
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372cd8bfad36d3db0800000000000000
+      internalID: -4810579034787429773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 895
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b47e60616d15cb0800000000000000
+      internalID: -4876881531372090576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_30
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 895
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89b5edea1fdf3c40800000000000000
+      internalID: 5494355377168693646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_31
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 768
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7949848fe8539860800000000000000
+      internalID: 7535464387264989566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_32
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 768
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0539afd4b4c7bb3a0800000000000000
+      internalID: -6648583762009746608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_33
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 768
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed2104b997384a50800000000000000
+      internalID: 6505510795026181601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 768
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ab042d28a4ce380800000000000000
+      internalID: -8940689234503615932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_35
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 768
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8faa7ebc8bf30a0800000000000000
+      internalID: -6899592918203696929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 639
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faae99cd49abf3d50800000000000000
+      internalID: 6719294317579070127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_37
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 639
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59bf1a660bcecf10800000000000000
+      internalID: 2291992488788867422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_38
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 639
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c709490ea760c1780800000000000000
+      internalID: -8711080454417772420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 639
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe4e8508e8d18510800000000000000
+      internalID: 1549758237829385975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_40
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 639
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b491ed6b969ad9c10800000000000000
+      internalID: 2061990475910224203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_41
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 639
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611498d1de4e74450800000000000000
+      internalID: 6073074329586319638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_42
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 673
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59a045a97d2d4d90800000000000000
+      internalID: -7111978236061374116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_43
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 671
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b098ec321e5dfe0800000000000000
+      internalID: -1164777384700212344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_44
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 671
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2a7276727bd0560800000000000000
+      internalID: 7281677552390218429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_45
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 673
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869152b684eb7e7a0800000000000000
+      internalID: -6347895931510908568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_46
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 639
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9734b75bdc98dc60800000000000000
+      internalID: 7843191216948918173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_47
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 639
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01afb9bde70da2170800000000000000
+      internalID: 8154559318576593424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_48
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 639
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb35e8f18100a5490800000000000000
+      internalID: -7756887304583621701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_49
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 639
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b79a0128d81a4f30800000000000000
+      internalID: 4560484889212393397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 511
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d07de0b884652b0800000000000000
+      internalID: -5596205724874633953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_51
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 511
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3a367e18f1d80c0800000000000000
+      internalID: -4571963403917876242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_52
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 511
+        width: 58
+        height: 45
+      alignment: 9
+      pivot: {x: 0.49114674, y: 0.47717828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0625b066962f220800000000000000
+      internalID: 2518191028651057394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_53
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 511
+        width: 77
+        height: 40
+      alignment: 9
+      pivot: {x: 0.31327483, y: 0.47432557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff4e5242b9eb13e0800000000000000
+      internalID: -2081813450901794820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_54
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 511
+        width: 60
+        height: 34
+      alignment: 9
+      pivot: {x: 0.7653066, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c988b073749546d50800000000000000
+      internalID: 6729601905599416476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_55
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 511
+        width: 60
+        height: 34
+      alignment: 9
+      pivot: {x: 0.77386475, y: 0.5151026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61374eec5282c39e0800000000000000
+      internalID: -1640392021419724010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_56
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 511
+        width: 55
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6698442, y: 0.527473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc895738581c8be0800000000000000
+      internalID: -1473776210892190468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_57
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 511
+        width: 82
+        height: 34
+      alignment: 9
+      pivot: {x: 0.24937327, y: 0.5549478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd91f8fef2f771450800000000000000
+      internalID: 6059451667509615069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_58
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 511
+        width: 86
+        height: 48
+      alignment: 9
+      pivot: {x: 0.30447885, y: 0.49999872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a184094d994cc1010800000000000000
+      internalID: 1161018968930011162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_59
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 511
+        width: 50
+        height: 36
+      alignment: 9
+      pivot: {x: 0.61209714, y: 0.4999983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f41641982aff9630800000000000000
+      internalID: 3936139651488027891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_60
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 383
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b2f9d188ff73870800000000000000
+      internalID: 8662673368348044144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 383
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23bb77d9c7251280800000000000000
+      internalID: -9073302126410878166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_62
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 383
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b16dfb004b51be00800000000000000
+      internalID: 1058727718045966768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_63
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 383
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30afbe0e209bb1c0800000000000000
+      internalID: -4486834076254232517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_64
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 383
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db1242ba0c75b670800000000000000
+      internalID: 8553879452642319313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_65
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23087c9082bcae4d0800000000000000
+      internalID: -3104445620295335886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_66
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab16c40a04120ad0800000000000000
+      internalID: -2737603590225519712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_67
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e185e0776504a10800000000000000
+      internalID: 1891606912837361255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_68
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb7433dc84a58210800000000000000
+      internalID: 1334653789331028984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_69
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667a7d8f35ce0e1c0800000000000000
+      internalID: -4476318184204949658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_70
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bd69f42ea62ab00800000000000000
+      internalID: 838350000874773257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_71
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e704d1b7ce09ebe0800000000000000
+      internalID: -1447609554378160158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_72
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 268
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8914e8ea3a385f810800000000000000
+      internalID: 1798488365235847576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_73
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 255
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56632cbb75ebe8ba0800000000000000
+      internalID: -6084716762509461915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_74
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 266
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b23c98fa49652c50800000000000000
+      internalID: 6639828996347146929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_75
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 255
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440befb5c8aa5dc70800000000000000
+      internalID: 8995283350557995076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_76
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 255
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007846c88c0c3dc80800000000000000
+      internalID: -8299077720732301568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_77
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 255
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5db11ddaf4176600800000000000000
+      internalID: 461360554512072027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_78
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 255
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaedc60f89ccc8b10800000000000000
+      internalID: 1985186493004308142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_79
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 127
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3845ff200525b50800000000000000
+      internalID: 6580409979345601506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbb569acc2ec5850800000000000000
+      internalID: 6367213341838261185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_84
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 127
+        width: 67
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85134eb7d9cd1fa0800000000000000
+      internalID: -5828280414300334710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_85
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 127
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba950331e30af8c0800000000000000
+      internalID: -3964852256187770186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_86
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 127
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf0ea551e7dcd3a0800000000000000
+      internalID: -6639194387845869638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_87
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 127
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cae24de4d002470800000000000000
+      internalID: 8367702739872820319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_88
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 127
+        width: 65
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4897833a320adcd00800000000000000
+      internalID: 994627167641434500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_89
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 127
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a376983d30916de40800000000000000
+      internalID: 5680755484199053114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_90
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 127
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404d3f63d8755d6f0800000000000000
+      internalID: -660525506315955196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_91
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 127
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ba1646ae38f3cc0800000000000000
+      internalID: -3729116923709773007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_92
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 127
+        width: 83
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43114b7c8d4de0ce0800000000000000
+      internalID: -1436977203556118220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_93
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 127
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e578c4d092f749e0800000000000000
+      internalID: -1637073235666766367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_96
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f3708f5e2d367d0800000000000000
+      internalID: -2926263447710122207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_97
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9dccde602286020800000000000000
+      internalID: 2335153819946375606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41568967a603ef1e0800000000000000
+      internalID: -2162237537276893932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_99
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d487b33a51ee1830800000000000000
+      internalID: 4043917292956255449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_100
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0
+        width: 67
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed26aa8df59c91b00800000000000000
+      internalID: 799891822329094878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OdleHero_101
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 67
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4396d8d0368b20e0800000000000000
+      internalID: -2293592040860642485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0dc0b49ccf1c76a4e94ffb545f234dd3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OdleHero_0: 4963270498523169569
+      OdleHero_1: 4114483149886029311
+      OdleHero_10: 1952857848908972463
+      OdleHero_100: 799891822329094878
+      OdleHero_101: -2293592040860642485
+      OdleHero_11: -3372491520748291566
+      OdleHero_12: -2717172967499383691
+      OdleHero_13: -5100982588827971019
+      OdleHero_14: 7276215122761255284
+      OdleHero_15: 7290823344743378792
+      OdleHero_16: 4752646555742031688
+      OdleHero_17: -7530150929438419697
+      OdleHero_18: -1564492688407794125
+      OdleHero_19: 8225786891978627330
+      OdleHero_2: -8472887540511601989
+      OdleHero_20: -3102408133184260531
+      OdleHero_21: 6852512437371628896
+      OdleHero_22: -4345446761527226205
+      OdleHero_23: -2728086154489334269
+      OdleHero_24: -4827668484365568236
+      OdleHero_25: -2429222775843586535
+      OdleHero_26: -4584769244924835234
+      OdleHero_27: -5350730938402923115
+      OdleHero_28: -4810579034787429773
+      OdleHero_29: -4876881531372090576
+      OdleHero_3: -7903553613356435359
+      OdleHero_30: 5494355377168693646
+      OdleHero_31: 7535464387264989566
+      OdleHero_32: -6648583762009746608
+      OdleHero_33: 6505510795026181601
+      OdleHero_34: -8940689234503615932
+      OdleHero_35: -6899592918203696929
+      OdleHero_36: 6719294317579070127
+      OdleHero_37: 2291992488788867422
+      OdleHero_38: -8711080454417772420
+      OdleHero_39: 1549758237829385975
+      OdleHero_4: -490636994134450204
+      OdleHero_40: 2061990475910224203
+      OdleHero_41: 6073074329586319638
+      OdleHero_42: -7111978236061374116
+      OdleHero_43: -1164777384700212344
+      OdleHero_44: 7281677552390218429
+      OdleHero_45: -6347895931510908568
+      OdleHero_46: 7843191216948918173
+      OdleHero_47: 8154559318576593424
+      OdleHero_48: -7756887304583621701
+      OdleHero_49: 4560484889212393397
+      OdleHero_5: -2225360168953030069
+      OdleHero_50: -5596205724874633953
+      OdleHero_51: -4571963403917876242
+      OdleHero_52: 2518191028651057394
+      OdleHero_53: -2081813450901794820
+      OdleHero_54: 6729601905599416476
+      OdleHero_55: -1640392021419724010
+      OdleHero_56: -1473776210892190468
+      OdleHero_57: 6059451667509615069
+      OdleHero_58: 1161018968930011162
+      OdleHero_59: 3936139651488027891
+      OdleHero_6: 9199389749565760568
+      OdleHero_60: 8662673368348044144
+      OdleHero_61: -9073302126410878166
+      OdleHero_62: 1058727718045966768
+      OdleHero_63: -4486834076254232517
+      OdleHero_64: 8553879452642319313
+      OdleHero_65: -3104445620295335886
+      OdleHero_66: -2737603590225519712
+      OdleHero_67: 1891606912837361255
+      OdleHero_68: 1334653789331028984
+      OdleHero_69: -4476318184204949658
+      OdleHero_7: 2128031319048049959
+      OdleHero_70: 838350000874773257
+      OdleHero_71: -1447609554378160158
+      OdleHero_72: 1798488365235847576
+      OdleHero_73: -6084716762509461915
+      OdleHero_74: 6639828996347146929
+      OdleHero_75: 8995283350557995076
+      OdleHero_76: -8299077720732301568
+      OdleHero_77: 461360554512072027
+      OdleHero_78: 1985186493004308142
+      OdleHero_79: 6580409979345601506
+      OdleHero_8: 2177885323965070869
+      OdleHero_80: -1102025631990129403
+      OdleHero_81: 3529546486618691396
+      OdleHero_82: -1401555217598466867
+      OdleHero_83: 6367213341838261185
+      OdleHero_84: -5828280414300334710
+      OdleHero_85: -3964852256187770186
+      OdleHero_86: -6639194387845869638
+      OdleHero_87: 8367702739872820319
+      OdleHero_88: 994627167641434500
+      OdleHero_89: 5680755484199053114
+      OdleHero_9: 1264566418366239162
+      OdleHero_90: -660525506315955196
+      OdleHero_91: -3729116923709773007
+      OdleHero_92: -1436977203556118220
+      OdleHero_93: -1637073235666766367
+      OdleHero_94: 5982897437127603971
+      OdleHero_95: -234441520286537145
+      OdleHero_96: -2926263447710122207
+      OdleHero_97: 2335153819946375606
+      OdleHero_98: -2162237537276893932
+      OdleHero_99: 4043917292956255449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

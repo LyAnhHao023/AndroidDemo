@@ -1,0 +1,1007 @@
+fileFormatVersion: 2
+guid: db3ccea0aebd7f34ebd0d4ddcd600ac2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 753915008786889299
+    second: magicSkill_0
+  - first:
+      213: -3905544391274601446
+    second: magicSkill_1
+  - first:
+      213: -5592735334665695874
+    second: magicSkill_2
+  - first:
+      213: -6838965640869035855
+    second: magicSkill_3
+  - first:
+      213: -4338914758287843266
+    second: magicSkill_4
+  - first:
+      213: 2409487046784205133
+    second: magicSkill_5
+  - first:
+      213: 27062640458410867
+    second: magicSkill_6
+  - first:
+      213: 8145701246379349882
+    second: magicSkill_7
+  - first:
+      213: -7296998129080033359
+    second: magicSkill_8
+  - first:
+      213: 7733126786262483146
+    second: magicSkill_9
+  - first:
+      213: 6316866310197555783
+    second: magicSkill_10
+  - first:
+      213: -63590739961574219
+    second: magicSkill_11
+  - first:
+      213: -6724132812269912116
+    second: magicSkill_12
+  - first:
+      213: 1007705402849665320
+    second: magicSkill_13
+  - first:
+      213: 5232045665785428699
+    second: magicSkill_14
+  - first:
+      213: -8818862766227924083
+    second: magicSkill_15
+  - first:
+      213: -6869292784125288180
+    second: magicSkill_16
+  - first:
+      213: 5458340015795975420
+    second: magicSkill_17
+  - first:
+      213: 6056841686947494111
+    second: magicSkill_18
+  - first:
+      213: 1013034137266446119
+    second: magicSkill_19
+  - first:
+      213: -862118004161034160
+    second: magicSkill_20
+  - first:
+      213: 4931490464277221390
+    second: magicSkill_21
+  - first:
+      213: -3994118620040412965
+    second: magicSkill_22
+  - first:
+      213: 8377808586096478725
+    second: magicSkill_23
+  - first:
+      213: -9067490975545220018
+    second: magicSkill_24
+  - first:
+      213: 6158762964023019112
+    second: magicSkill_25
+  - first:
+      213: -5288409462175596212
+    second: magicSkill_26
+  - first:
+      213: 8590562424417177908
+    second: magicSkill_27
+  - first:
+      213: 7572834043593980245
+    second: magicSkill_28
+  - first:
+      213: -1649109068086890427
+    second: magicSkill_29
+  - first:
+      213: -6272548487875048725
+    second: magicSkill_30
+  - first:
+      213: 4197711635528403511
+    second: magicSkill_31
+  - first:
+      213: -4947629145515284893
+    second: magicSkill_32
+  - first:
+      213: 7509892623273192266
+    second: magicSkill_33
+  - first:
+      213: -5394314979865716355
+    second: magicSkill_34
+  - first:
+      213: -4309174329144270863
+    second: magicSkill_35
+  - first:
+      213: -6691662669762236014
+    second: magicSkill_36
+  - first:
+      213: -6036208039128259556
+    second: magicSkill_37
+  - first:
+      213: -1223736545018057603
+    second: magicSkill_38
+  - first:
+      213: -6979526331673195341
+    second: magicSkill_39
+  - first:
+      213: -2420628450721196434
+    second: magicSkill_40
+  - first:
+      213: 2747345106720720030
+    second: magicSkill_41
+  - first:
+      213: 8202356356199494387
+    second: magicSkill_42
+  - first:
+      213: -6607572947421743302
+    second: magicSkill_43
+  - first:
+      213: -7617442221489995564
+    second: magicSkill_44
+  - first:
+      213: -3973650028196827421
+    second: magicSkill_45
+  - first:
+      213: 2536611488490753807
+    second: magicSkill_46
+  - first:
+      213: 9048317469857826238
+    second: magicSkill_47
+  - first:
+      213: -3428386895887290280
+    second: magicSkill_48
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magicSkill_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 305
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b253ff355206000800000000000000
+      internalID: 27062640458410867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 305
+        width: 32
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821a81f89b61cfd00800000000000000
+      internalID: 1007705402849665320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_15
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 305
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bd018d90b1d9580800000000000000
+      internalID: -8818862766227924083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 306
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01ee00ab9e5ba0a0800000000000000
+      internalID: -6869292784125288180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_17
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 305
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4b1d8235befbb40800000000000000
+      internalID: 5458340015795975420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_18
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 305
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8784b7c693e0450800000000000000
+      internalID: 6056841686947494111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_19
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 305
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f5c193e250f0e00800000000000000
+      internalID: 1013034137266446119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_20
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 305
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058438f2e342904f0800000000000000
+      internalID: -862118004161034160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_22
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 305
+        width: 29
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0c7bdd64a0298c0800000000000000
+      internalID: -3994118620040412965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_23
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 305
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a8f728584f34470800000000000000
+      internalID: 8377808586096478725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e442196dffcc92280800000000000000
+      internalID: -9067490975545220018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 233
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8668c660942587550800000000000000
+      internalID: 6158762964023019112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 233
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4185340d9bcb96b0800000000000000
+      internalID: -5288409462175596212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_27
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 234
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4315430a20fc73770800000000000000
+      internalID: 8590562424417177908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_28
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5597767a07c181960800000000000000
+      internalID: 7572834043593980245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_29
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 233
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5403ec83a003d19e0800000000000000
+      internalID: -1649109068086890427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_30
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 234
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea4bc7326e63f8a0800000000000000
+      internalID: -6272548487875048725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_31
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 234
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ac139fd74414a30800000000000000
+      internalID: 4197711635528403511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366213d718d765bb0800000000000000
+      internalID: -4947629145515284893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 145
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b668f3d8f783860800000000000000
+      internalID: 7509892623273192266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_34
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 145
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79198a2b1b8325b0800000000000000
+      internalID: -5394314979865716355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_35
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 147
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff9f1457ccb234c0800000000000000
+      internalID: -4309174329144270863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_36
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 146
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291741c71407223a0800000000000000
+      internalID: -6691662669762236014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_37
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 147
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14276505c41b3ca0800000000000000
+      internalID: -6036208039128259556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_38
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 147
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce88f881a640fe0800000000000000
+      internalID: -1223736545018057603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_39
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 147
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc422cc7cdb32f90800000000000000
+      internalID: -6979526331673195341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 57
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e661f85cf33386ed0800000000000000
+      internalID: -2420628450721196434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 58
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e940f7981d7802620800000000000000
+      internalID: 2747345106720720030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_42
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 58
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f23074e5af94d170800000000000000
+      internalID: 8202356356199494387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_43
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 58
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a373279a96f2d44a0800000000000000
+      internalID: -6607572947421743302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_44
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 58
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0c60398a8694690800000000000000
+      internalID: -7617442221489995564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_45
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 57
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee6b974a52cad8c0800000000000000
+      internalID: -3973650028196827421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_47
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 57
+        width: 63
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb546dd7cc4129d70800000000000000
+      internalID: 9048317469857826238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicSkill_48
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 58
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850b806584ceb60d0800000000000000
+      internalID: -3428386895887290280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 151ac85b52f80ae49a2482be91f5b7a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      magicSkill_13: 1007705402849665320
+      magicSkill_15: -8818862766227924083
+      magicSkill_16: -6869292784125288180
+      magicSkill_17: 5458340015795975420
+      magicSkill_18: 6056841686947494111
+      magicSkill_19: 1013034137266446119
+      magicSkill_20: -862118004161034160
+      magicSkill_22: -3994118620040412965
+      magicSkill_23: 8377808586096478725
+      magicSkill_24: -9067490975545220018
+      magicSkill_25: 6158762964023019112
+      magicSkill_26: -5288409462175596212
+      magicSkill_27: 8590562424417177908
+      magicSkill_28: 7572834043593980245
+      magicSkill_29: -1649109068086890427
+      magicSkill_30: -6272548487875048725
+      magicSkill_31: 4197711635528403511
+      magicSkill_32: -4947629145515284893
+      magicSkill_33: 7509892623273192266
+      magicSkill_34: -5394314979865716355
+      magicSkill_35: -4309174329144270863
+      magicSkill_36: -6691662669762236014
+      magicSkill_37: -6036208039128259556
+      magicSkill_38: -1223736545018057603
+      magicSkill_39: -6979526331673195341
+      magicSkill_40: -2420628450721196434
+      magicSkill_41: 2747345106720720030
+      magicSkill_42: 8202356356199494387
+      magicSkill_43: -6607572947421743302
+      magicSkill_44: -7617442221489995564
+      magicSkill_45: -3973650028196827421
+      magicSkill_47: 9048317469857826238
+      magicSkill_48: -3428386895887290280
+      magicSkill_6: 27062640458410867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
