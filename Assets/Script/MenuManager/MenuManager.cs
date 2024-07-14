@@ -21,6 +21,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject _UpgradeAnvilResultUI;
     [SerializeField] private GameObject _UpgradeAnvilInfoHolderUI;
     [SerializeField] private GameObject _CollabAnvilUI;
+    [SerializeField] private GameObject _AdsUI;
 
     private UpgradeSlotManager _slotManager;
     private CollabSlotManager _collabSlotManager;
@@ -169,8 +170,17 @@ public class MenuManager : MonoBehaviour
         Unpause();
     }
 
+    public void AdsScreen()
+    {
+        isPaused = true;
+        Time.timeScale = 0f;
+
+        _AdsUI.SetActive(true);
+    }
+
     public void GameOverScreen(bool stageComplete = false)
     {
+
         isPaused = true;
         isGameOver = true;
         Time.timeScale = 0f;

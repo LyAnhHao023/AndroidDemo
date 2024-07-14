@@ -47,7 +47,20 @@ public class AudioManager : MonoBehaviour
         if (!backGroundMusicSource.isPlaying)
         {
             backGroundMusicSource.clip = SetBGM();
+            //backGroundMusicSource.Play();
+        }
+    }
+
+    public void SetActiveBackGroundMusic(bool isActive)
+    {
+
+        if (isActive)
+        {
             backGroundMusicSource.Play();
+        }
+        else
+        {
+            backGroundMusicSource.Stop();
         }
     }
 

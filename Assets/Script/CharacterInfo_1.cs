@@ -111,6 +111,8 @@ public class CharacterInfo_1 : MonoBehaviour
     [HideInInspector]
     public float evasion = 0;
 
+    int respawnLife = 1;
+
     private void Awake()
     {
         healthPercent = PlayerPrefs.GetInt("HPlv", 0) * 0.04f;
@@ -621,8 +623,15 @@ public class CharacterInfo_1 : MonoBehaviour
 
                 if (currentHealth <= 0 || (currentSlowhealth <= 0 && slowHealthAcquired))
                 {
-                    menuManager.GameOverScreen();
-                    overCoin.SetCoinGain(coins);
+                    if(respawnLife > 0)
+                    {
+                        menuManager.AdsScreen();
+                        --respawnLife;
+                    }
+                    else
+                    {
+                        GameOver();
+                    }
                 }
             }
             else
@@ -641,6 +650,12 @@ public class CharacterInfo_1 : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void GameOver()
+    {
+        menuManager.GameOverScreen();
+        overCoin.SetCoinGain(coins);
     }
 
     public void HealthByPercent(int health)
