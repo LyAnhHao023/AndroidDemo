@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour
     [Header("-----AudioClipGamePlay-----")]
     public AudioClip[] MainMenuBGM;
     public AudioClip Background;
+    public AudioClip BossFight;
     public AudioClip LevelUp;
     public AudioClip Lose;
     public AudioClip Win;
@@ -21,6 +22,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip PickUpCoin;
     public AudioClip TakeDmg;
     public AudioClip Warning;
+    public AudioClip AnvilDrop;
+    public AudioClip UpgradeAnvil;
+    public AudioClip CollabAnvilBonk;
+    public AudioClip BossDead;
 
     [Header("-----AudioClipWeapon-----")]
     public AudioClip Axe;
@@ -35,6 +40,20 @@ public class AudioManager : MonoBehaviour
     public AudioClip BoombBat;
     public AudioClip WildBoar;
 
+    private bool completeStage;
+    private bool adsPlay;
+
+    public void SetCompleteStage(bool completeStage)
+    {
+        this.completeStage = completeStage;
+    }
+
+    private void Awake()
+    {
+        adsPlay = false;
+        completeStage = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,11 +63,40 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
-        if (!backGroundMusicSource.isPlaying)
+        if (!backGroundMusicSource.isPlaying && !completeStage)
         {
             backGroundMusicSource.clip = SetBGM();
-            //backGroundMusicSource.Play();
+
+            if (adsPlay)
+            {
+                backGroundMusicSource.Stop();
+            }
+            else
+            {
+                backGroundMusicSource.Play();
+            }
         }
+
+        if (completeStage)
+        {
+            SetActiveBackGroundMusic(false);
+        }
+    }
+
+    private AudioClip SetBGM()
+    {
+        if (MainMenuBGM != null && Background == null)
+        {
+            backGroundMusicSource.loop = false;
+            return MainMenuBGM[Random.Range(0, MainMenuBGM.Length)];
+        }
+
+        if (MainMenuBGM == null)
+        {
+            backGroundMusicSource.loop = true;
+        }
+
+        return Background;
     }
 
     public void SetActiveBackGroundMusic(bool isActive)
@@ -64,30 +112,19 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private AudioClip SetBGM()
-    {
-        if(MainMenuBGM != null && Background == null)
-        {
-            backGroundMusicSource.loop = false;
-            return MainMenuBGM[Random.Range(0, MainMenuBGM.Length)];
-        }
-
-        if (MainMenuBGM == null)
-        {
-            backGroundMusicSource.loop = true;
-        }
-
-        return Background;
-    }
-
     public void PlaySFX(AudioClip audioClip)
     {
         SFX.PlayOneShot(audioClip);
     }
 
+    public void ClearSFX()
+    {
+        SFX.Stop();
+    }
+
     public void SetMasterVolume(float level)
     {
-        audioMixer.SetFloat("MasterVolume", Mathf.Log10(level)*20);
+        audioMixer.SetFloat("MasterVolume", Mathf.Log10(level) * 20);
     }
 
     public void SetMusicVolume(float level)

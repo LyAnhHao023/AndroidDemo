@@ -7,28 +7,9 @@ public class SetTypeLocker : MonoBehaviour
 {
     [SerializeField] GameObject locker;
 
-    [SerializeField] MainMenu menu;
-
-    MapData MapData;
-
-    private void Start()
+    public void SetLocker(bool open)
     {
-        MapData = menu.GetMapData();
-        SetLocker();
-    }
-
-    private void Update()
-    {
-        if(menu.GetMapData() != MapData)
-        {
-            MapData = menu.GetMapData();
-            SetLocker();
-        }
-    }
-
-    public void SetLocker()
-    {
-        locker.SetActive(!MapData.storyCleared);
-        GetComponent<Button>().enabled = !MapData.storyCleared;
+        locker.SetActive(!open);
+        GetComponent<Button>().enabled = !open;
     }
 }

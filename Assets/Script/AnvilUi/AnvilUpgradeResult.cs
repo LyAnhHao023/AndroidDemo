@@ -10,10 +10,11 @@ public class AnvilUpgradeResult : MonoBehaviour
     [SerializeField] Text ResultsText;
     [SerializeField] GameObject ResultText;
     [SerializeField] GameObject ResultButton;
-    [SerializeField] GameObject ImageAnimation;
-    [SerializeField] Animator animator;
+    [SerializeField] GameObject UpgradeEffect;
+    [SerializeField] ParticleSystem Effect;
     [SerializeField] Image BuffIcon;
     [SerializeField] CharacterInfo_1 Character;
+    [SerializeField] AudioManager Audio;
 
     UpgradeData data;
     bool result;
@@ -45,26 +46,23 @@ public class AnvilUpgradeResult : MonoBehaviour
 
     private IEnumerator WaitForAnimationEnd()
     {
-        animator.SetBool("Upgrade", true);
+        UpgradeEffect.SetActive(true);
+        Audio.ClearSFX();
+        Effect.Play();
+        Audio.PlaySFX(Audio.UpgradeAnvil);
 
-        while (!animator.GetCurrentAnimatorStateInfo(0).IsName("UpgradeAnimation"))
+        while (Effect.isPlaying)
         {
             yield return null;
         }
 
-        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
-        {
-            yield return null;
-        }
-
-        animator.SetBool("Upgrade", false);
+        UpgradeEffect.SetActive(false);
 
         SetResult();
     }
 
     private void SetResult()
     {
-        ImageAnimation.SetActive(false);
         if (result)
         {
             Character.coins -= upgradePrice;

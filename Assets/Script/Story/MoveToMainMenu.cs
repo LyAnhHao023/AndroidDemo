@@ -8,6 +8,11 @@ public class MoveToMainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Move();
+    }
+
+    public void Move()
+    {
         SceneManager.LoadScene("MainMenu");
     }
 }

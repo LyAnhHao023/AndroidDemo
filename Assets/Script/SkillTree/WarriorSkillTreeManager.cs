@@ -51,11 +51,19 @@ public class WarriorSkillTreeManager : MonoBehaviour
             SkillIcon.sprite = skillList[currentLevel].skillIcon;
             skillPrice.Set(this.characterData, skillList[currentLevel], 1);
         }
+        else
+        {
+            SkillContainer.SetActive(skillList[currentLevel].isUpgrade);
+            SkillName.text = skillList[currentLevel - 1].skillName;
+            SkillDescription.text = skillList[currentLevel - 1].skillDescription;
+            SkillIcon.sprite = skillList[currentLevel - 1].skillIcon;
+            skillPrice.Set(this.characterData, skillList[currentLevel - 1], 1);
+        }
     }
 
     public void Onclick()
     {
         BuyButton.SetActive(true);
-        skillPrice.Set(this.characterData, skillList[currentLevel], 1);
+        //skillPrice.Set(this.characterData, skillList[currentLevel], 1);
     }
 }

@@ -13,6 +13,11 @@ public class UpgradeSlotManager : MonoBehaviour
         {
             weapons[i].SetWeaponSlot(upgradeDatas[i]);
         }
+
+        for (int i = upgradeDatas.Count; i < weapons.Count; i++)
+        {
+            weapons[i].ClearSlot();
+        }
     }
 
     public void SetPassiveItem(List<UpgradeData> upgradeDatas)

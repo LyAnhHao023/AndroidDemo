@@ -7,6 +7,8 @@ public class MapManager : MonoBehaviour
 {
     [SerializeField] GameObject levelSelectPanel;
     [SerializeField] GameObject characterSelect;
+    [SerializeField] SetTypeLocker endlessSet;
+    [SerializeField] SetTypeLocker challangeSet;
     [SerializeField] Button endless;
     [SerializeField] Button challange;
 
@@ -56,5 +58,15 @@ public class MapManager : MonoBehaviour
     public Button Challange()
     {
         return challange;
+    }
+
+    public SetTypeLocker EndlessSet()
+    {
+        return endlessSet;
+    }
+
+    public SetTypeLocker ChallangeSet()
+    {
+        return challangeSet;
     }
 }

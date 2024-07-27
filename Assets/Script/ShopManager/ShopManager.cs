@@ -11,6 +11,9 @@ public class ShopManager : MonoBehaviour
 
     [SerializeField] GameObject skillTreeSystemManager;
 
+    [SerializeField] GameObject Reset;
+    [SerializeField] GameObject ResetOverlay;
+
     public GameObject goodsInfo()
     {
         return goodsInfoHolder;
@@ -21,15 +24,24 @@ public class ShopManager : MonoBehaviour
         return skillTreeSystemManager;
     }
 
+    public GameObject ResetButton()
+    {
+        return Reset;
+    }
+
+    public GameObject ResetButtonOverlay()
+    {
+        return ResetOverlay;
+    }
+
     int totalCoin;
     int totalPoint;
 
-    /*private void Awake()
+    private void Awake()
     {
-        PlayerPrefs.SetInt("Coins", 100000);
-        PlayerPrefs.Save();
-        Set();
-    }*/
+        /*PlayerPrefs.SetInt("Coins", 100000);
+        PlayerPrefs.Save();*/
+    }
 
     private void Update()
     {

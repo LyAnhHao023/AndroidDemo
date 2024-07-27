@@ -22,6 +22,20 @@ public class SetAnvilCollabItem : MonoBehaviour
         IconButton.onClick.AddListener(Onclick);
     }
 
+    private void Update()
+    {
+        if (upgradeData == null)
+        {
+            IconHodler.SetActive(false);
+            IconButton.enabled = false;
+        }
+    }
+
+    public void ClearSlot()
+    {
+        upgradeData = null;
+    }
+
     public void SetWeaponSlot(UpgradeData weaponData)
     {
         if(weaponData.maxed)
@@ -32,6 +46,7 @@ public class SetAnvilCollabItem : MonoBehaviour
         Icon.sprite = weaponData.icon;
         IconHodler.SetActive(true);
         type = true;
+        IconButton.enabled = true;
     }
 
     public void SetItemSlot(UpgradeData itemData)
@@ -44,6 +59,8 @@ public class SetAnvilCollabItem : MonoBehaviour
         Icon.sprite = itemData.icon;
         IconHodler.SetActive(true);
         type = false;
+        IconButton.enabled = false;
+        Overlay.SetActive(true);
     }
 
     void Onclick()

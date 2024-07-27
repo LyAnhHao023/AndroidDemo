@@ -13,6 +13,14 @@ public class SetInventoryItemInfo : MonoBehaviour
     {
         IconHolder.SetActive(true);
         Icon.sprite = upgradeData.icon;
-        Name.text = string.Format("{0} Lv.{1}", upgradeData.buffName, upgradeData.level);
+
+        string OverLevel = "";
+
+        if(upgradeData.maxed && upgradeData.overLevel > 0)
+        {
+            OverLevel = string.Format("+{0}", upgradeData.overLevel);
+        }
+
+        Name.text = string.Format("{0} Lv.{1} {2}", upgradeData.buffName, upgradeData.level, OverLevel);
     }
 }

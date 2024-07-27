@@ -15,6 +15,8 @@ public class SetMapHolder : MonoBehaviour
     private MapManager mapManager;
     private GameObject LevelSelect;
     private GameObject SelectCharacter;
+    private SetTypeLocker EndlessSet;
+    private SetTypeLocker ChallangeSet;
     private Button endless;
     private Button challange;
 
@@ -31,6 +33,8 @@ public class SetMapHolder : MonoBehaviour
         SelectCharacter = mapManager.CharacterSelect();
         endless = mapManager.Endless();
         challange = mapManager.Challange();
+        EndlessSet = mapManager.EndlessSet();
+        ChallangeSet = mapManager.ChallangeSet();
 
 
         MapHolder.onClick.AddListener(Onclick);
@@ -46,6 +50,8 @@ public class SetMapHolder : MonoBehaviour
 
         foreach(var item in data.missions)
         {
+            /*PlayerPrefs.SetInt(item.missionName + data.Name, 0);
+            PlayerPrefs.Save();*/
             int completed = PlayerPrefs.GetInt(item.missionName + data.Name, 0);
             item.completed = completed > 0;
             if(completed > 0)
@@ -54,6 +60,7 @@ public class SetMapHolder : MonoBehaviour
             if (numComplete >= 3)
             {
                 PlayerPrefs.SetInt("3Star" + data.key, 1);
+                PlayerPrefs.Save();
             }
         }
     }
@@ -65,9 +72,20 @@ public class SetMapHolder : MonoBehaviour
         menu.SetMapData(mapData);
         StaticData.MapSelect = mapData;
 
-        if (mapData.storyCleared)
-            endless.enabled = true;
+
+        endless.enabled = mapData.storyCleared;
+        EndlessSet.SetLocker(mapData.storyCleared);
+
+
         if (numComplete >= 3)
+        {
             challange.enabled = true;
+            ChallangeSet.SetLocker(true);
+        }
+        else
+        {
+            challange.enabled = false;
+            ChallangeSet.SetLocker(false);
+        }
     }
 }

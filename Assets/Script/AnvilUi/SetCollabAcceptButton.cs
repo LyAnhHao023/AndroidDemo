@@ -7,20 +7,23 @@ public class SetCollabAcceptButton : MonoBehaviour
 {
     [SerializeField] GameObject Overlay;
     [SerializeField] Button AcceptButton;
-    [SerializeField] GameObject ImageAnimation;
-    [SerializeField] GameObject ResultIcon;
     [SerializeField] GameObject ColabResultUI;
     [SerializeField] AnvilCollabResult setColabResult;
 
     [SerializeField] List<UpgradeData> colabList;
 
-    private UpgradeData data1;
-    private UpgradeData data2;
-    private UpgradeData colabResult;
+    public UpgradeData data1;
+    public UpgradeData data2;
+    public UpgradeData colabResult;
 
     private void Start()
     {
         AcceptButton.onClick.AddListener(Onclick);
+    }
+
+    private void Update()
+    {
+        CheckColab();
     }
 
     public void SetData(UpgradeData data)
@@ -35,16 +38,21 @@ public class SetCollabAcceptButton : MonoBehaviour
         }
 
         CheckColab();
+    }
 
-        ImageAnimation.SetActive(true);
-        ResultIcon.SetActive(false);
+    public void Clear()
+    {
+        data1 = null;
+        data2 = null;
+        colabResult = null;
+        Overlay.SetActive(true);
     }
 
     public void RemoveData(UpgradeData data)
     {
         if(data1 != null)
         {
-            if (data.weaponData == data1.weaponData/* || data.itemsData.name == data1.itemsData.name*/)
+            if (data.weaponData == data1.weaponData /*|| data.itemsData == data1.itemsData*/)
             {
                 data1 = null;
             }
@@ -52,28 +60,31 @@ public class SetCollabAcceptButton : MonoBehaviour
         
         if(data2 != null)
         {
-            if (data.weaponData == data2.weaponData/* || data.itemsData.name == data2.itemsData.name*/)
+            if (data.weaponData == data2.weaponData /*|| data.itemsData == data2.itemsData*/)
             {
                 data2 = null;
             }
         }
 
         colabResult = null;
-        Overlay.SetActive(false);
+        Overlay.SetActive(true);
     }
 
     public void CheckColab()
     {
         if(data1 != null && data2 != null)
         {
-            foreach (var item in  colabList)
+            UpgradeData data = null;
+
+            data = colabList.Find(item => item.colabInfo.weapon1 == data1.weaponData || item.colabInfo.weapon2 == data1.weaponData);
+
+            if(data != null)
             {
-                if((item.colabInfo.weapon1.name == data1.weaponData.name || item.colabInfo.weapon2.name == data1.weaponData.name) && (item.colabInfo.weapon1.name == data2.weaponData.name || item.colabInfo.weapon2.name == data2.weaponData.name))
+                if(data.colabInfo.weapon1 == data2.weaponData || data.colabInfo.weapon2 == data2.weaponData)
                 {
-                    colabResult = item;
+                    colabResult = data;
 
                     Overlay.SetActive(false);
-                    break;
                 }
             }
         }

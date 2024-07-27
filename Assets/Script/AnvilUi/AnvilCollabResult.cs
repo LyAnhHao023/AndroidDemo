@@ -7,22 +7,28 @@ public class AnvilCollabResult : MonoBehaviour
 {
     [SerializeField] SetCollabHolder colabHolder;
     [SerializeField] GameObject ResultHolder;
-    [SerializeField] GameObject ImageAnimation;
-    [SerializeField] Animator animator;
+    [SerializeField] GameObject CollabEffect;
+    [SerializeField] ParticleSystem Effect;
     [SerializeField] Image BuffIcon;
     [SerializeField] GameObject BuffIconHolder;
     [SerializeField] CharacterInfo_1 Character;
+    [SerializeField] AudioManager Audio;
 
     UpgradeData data;
 
     private void Start()
     {
         ResultHolder.SetActive(false);
+        CollabEffect.SetActive(false);
     }
 
     public void Set(UpgradeData upgradeData)
     {
         data = upgradeData;
+
+        BuffIcon.sprite = data.icon;
+
+        BuffIconHolder.SetActive(false);
 
         Character.AddCollab(data);
 
@@ -31,31 +37,27 @@ public class AnvilCollabResult : MonoBehaviour
 
     private IEnumerator WaitForAnimationEnd()
     {
-        animator.SetBool("Upgrade", true);
+        CollabEffect.SetActive(true);
+        Audio.ClearSFX();
+        Audio.PlaySFX(Audio.CollabAnvilBonk);
+        Effect.Play();
 
-        while (!animator.GetCurrentAnimatorStateInfo(0).IsName("UpgradeAnimation"))
+        while (Effect.isPlaying)
         {
             yield return null;
         }
 
-        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
-        {
-            yield return null;
-        }
-
-        animator.SetBool("Upgrade", false);
+        CollabEffect.SetActive(false);
 
         SetResult();
     }
 
     private void SetResult()
     {
-        ImageAnimation.SetActive(false);
         BuffIconHolder.SetActive(true);
-
-        BuffIcon.sprite = data.icon;
 
         ResultHolder.SetActive(true);
         colabHolder.Set(data);
+        data = null;
     }
 }

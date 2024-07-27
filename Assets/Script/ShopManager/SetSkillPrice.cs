@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,16 @@ public class SetSkillPrice : MonoBehaviour
     [SerializeField] SkillTreeSystemManager skillTreeSystemManager;
     
     public CharacterData characterData;
+
+    private void Awake()
+    {
+        totalCoins = PlayerPrefs.GetInt("Coins", 0);
+    }
+
+    private void Update()
+    {
+        totalCoins = PlayerPrefs.GetInt("Coins", 0);
+    }
 
     public void SetCharacterData(CharacterData characterData)
     {
@@ -30,28 +41,40 @@ public class SetSkillPrice : MonoBehaviour
         this.skill = skill;
         SkillPrice.text = skill.prices.ToString();
 
-        totalCoins = PlayerPrefs.GetInt("Coins", 0);
+        PriceCheck();
+
+        MaxLevelCheck();
     }
 
     private void PriceCheck()
     {
-        if(skill.prices >= totalCoins)
+        Debug.Log(skill.prices.ToString());
+
+        if (totalCoins >= skill.prices)
         {
             ButtonOverlay.SetActive(false);
-            transform.GetComponent<Button>().enabled = false;
+            transform.GetComponent<Button>().enabled = true;
         }
         else
         {
             ButtonOverlay.SetActive(true);
-            transform.GetComponent<Button>().enabled = true;
+            transform.GetComponent<Button>().enabled = false;
+        }
+    }
+
+    private void MaxLevelCheck()
+    {
+        if(characterData.skillTree.level >= 10)
+        {
+            SkillPrice.text = "MAX";
+            ButtonOverlay.SetActive(true);
+            transform.GetComponent<Button>().enabled = false;
         }
     }
 
     public void Onclick()
     {
         totalCoins -= skill.prices;
-
-        PriceCheck();
 
         PlayerPrefs.SetInt("Coins", totalCoins);
         PlayerPrefs.Save();
@@ -60,6 +83,14 @@ public class SetSkillPrice : MonoBehaviour
 
         characterData.skillTree.type = type;
         characterData.skillTree.level += 1;
+
+        PlayerPrefs.SetInt("TreeType" + characterData.name, characterData.skillTree.type);
+        PlayerPrefs.Save();
+        PlayerPrefs.SetInt("TreeLevel" + characterData.name, characterData.skillTree.level);
+        PlayerPrefs.Save();
+
+        PriceCheck();
+        MaxLevelCheck();
 
         skillTreeSystemManager.SetSkillInfo();
     }

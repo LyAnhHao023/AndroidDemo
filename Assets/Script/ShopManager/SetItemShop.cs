@@ -15,6 +15,8 @@ public class SetItemShop : MonoBehaviour
     private SetGoodsInfo goodsInfo;
     GameObject infoHolder;
     GameObject SkillTree;
+    GameObject ResetButton;
+    GameObject ResetButtonOverlay;
 
     GoodsData goods;
 
@@ -27,6 +29,9 @@ public class SetItemShop : MonoBehaviour
         infoHolder = shopManager.goodsInfo();
 
         SkillTree = shopManager.SkillTree();
+
+        ResetButton = shopManager.ResetButton();
+        ResetButtonOverlay = shopManager.ResetButtonOverlay();
 
         goodsInfo = infoHolder.GetComponent<SetGoodsInfo>();
 
@@ -73,6 +78,19 @@ public class SetItemShop : MonoBehaviour
                 SkillTree.SetActive(true);      
                 skillTreeSystem.SetSkillTree(goods.characterData);
                 skillTreeSystem.Set();
+            }
+            
+            if(goods.characterData.skillTree.level > 0)
+            {
+                ResetButton.SetActive(true);
+                ResetButtonOverlay.SetActive(false);
+                ResetButton.GetComponent<Button>().enabled = true;
+            }
+            else
+            {
+                ResetButton.SetActive(false);
+                ResetButtonOverlay.SetActive(false);
+                ResetButton.GetComponent<Button>().enabled = false;
             }
         }
 

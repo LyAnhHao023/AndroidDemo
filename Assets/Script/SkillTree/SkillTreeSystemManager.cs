@@ -26,6 +26,15 @@ public class SkillTreeSystemManager : MonoBehaviour
         assassinSkillTree.Set(0);
     }
 
+    public void ResetSkillTree()
+    {
+        characterData.skillTree.type = 0;
+        characterData.skillTree.level = 0;
+
+        SetSkillTree(characterData);
+        Set();
+    }
+
     public void SetSkillTree(CharacterData characterData)
     {
         this.characterData = characterData;
@@ -38,6 +47,16 @@ public class SkillTreeSystemManager : MonoBehaviour
     {
         switch (characterData.skillTree.type)
         {
+            case 0:
+                {
+                    warriorSkillTree.Set(0);
+                    wizardSkillTree.Set(0);
+                    assassinSkillTree.Set(0);
+                    warriorSkillTreeButton.enabled = true;
+                    wizardSkillTreeButton.enabled = true;
+                    assassinSkillTreeButton.enabled = true;
+                }
+                break;
             case 1:
                 {
                     warriorSkillTree.Set(characterData.skillTree.level, this.characterData);

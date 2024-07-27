@@ -14,7 +14,6 @@ public class ChanceSet : MonoBehaviour
     [SerializeField] CharacterInfo_1 Character;
     [SerializeField] GameObject ResultTable;
     [SerializeField] AnvilUpgradeResult upgradeResult;
-    [SerializeField] GameObject ImageAnimaton;
 
     int baseUpgradePrice = 100;
     float baseChance = 100f;
@@ -94,11 +93,17 @@ public class ChanceSet : MonoBehaviour
         if (type)
         {
             upgradePrice = baseUpgradePrice * data.level;
+
+            if(data.overLevel > 0)
+            {
+                upgradePrice = baseUpgradePrice * data.level + baseUpgradePrice * data.overLevel;
+            }
         }
         else
         {
             upgradePrice = baseUpgradePrice * data.itemsData.level;
         }
+
         SetOverlay(type);
         Price.text = upgradePrice.ToString();
         ChanceCal();
@@ -106,7 +111,6 @@ public class ChanceSet : MonoBehaviour
 
         ChanceHolder.SetActive(true);
         ResultTable.SetActive(false);
-        ImageAnimaton.SetActive(true);
     }
 
     private void SetOverlay(bool type)

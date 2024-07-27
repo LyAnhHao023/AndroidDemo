@@ -17,6 +17,9 @@ public class SetGoodsInfo : MonoBehaviour
 
     [SerializeField] ShopManager shopManager;
 
+    [SerializeField] GameObject SkillTree;
+    [SerializeField] SkillTreeSystemManager SetSkillTree;
+
     private GoodsData goodsData;
 
     SetItemShop goodsHolder;
@@ -25,6 +28,12 @@ public class SetGoodsInfo : MonoBehaviour
     int totalPoints;
 
     private void Awake()
+    {
+        totalCoins = PlayerPrefs.GetInt("Coins", 0);
+        totalPoints = PlayerPrefs.GetInt("TotalPoints", 0);
+    }
+
+    private void Update()
     {
         totalCoins = PlayerPrefs.GetInt("Coins", 0);
         totalPoints = PlayerPrefs.GetInt("TotalPoints", 0);
@@ -94,8 +103,11 @@ public class SetGoodsInfo : MonoBehaviour
     {
         ButtonCheck(goodsData);
 
-        PlayerPrefs.SetInt(goodsData.goodsName + "lv", goodsData.level);
-        PlayerPrefs.Save();
+        /*if((int)goodsData.type == 0)
+        {*/
+            PlayerPrefs.SetInt(goodsData.goodsName + "lv", goodsData.level);
+            PlayerPrefs.Save();
+        //}
 
         if (goodsData.level < goodsData.maxLevel)
             goodsData.price = goodsData.levelInfos[goodsData.level].price;
@@ -109,6 +121,9 @@ public class SetGoodsInfo : MonoBehaviour
         if((int)goodsData.type == 1)
         {
             goodsData.characterData.acquired = true;
+            SkillTree.SetActive(true);
+            SetSkillTree.SetSkillTree(goodsData.characterData);
+            SetSkillTree.Set();
         }
 
         goodsData.level+=1;
