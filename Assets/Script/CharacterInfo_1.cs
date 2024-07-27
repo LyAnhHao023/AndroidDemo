@@ -49,7 +49,6 @@ public class CharacterInfo_1 : MonoBehaviour
     [SerializeField] LevelUpSelectBuff levelUpSelectBuff;
 
     public List<UpgradeData> upgradeDatas;
-    public List<UpgradeData> upgradeDatasFromChest;
     public List<UpgradeData> weaponSlotsManager = new List<UpgradeData>();
     public List<UpgradeData> itemSlotsManager = new List<UpgradeData>();
 
@@ -95,6 +94,10 @@ public class CharacterInfo_1 : MonoBehaviour
     int shieldMaxValue;
     public int shieldCurrentValue;
 
+    bool isDie;
+
+    int respawnLife = 1;
+
     //AudioManager
     AudioManager audioManager;
 
@@ -110,8 +113,6 @@ public class CharacterInfo_1 : MonoBehaviour
     //Tỉ lệ né đòn
     [HideInInspector]
     public float evasion = 0;
-
-    int respawnLife = 1;
 
     private void Awake()
     {
@@ -129,6 +130,8 @@ public class CharacterInfo_1 : MonoBehaviour
 
     private void Start()
     {
+        isDie = false;
+
         if (StaticData.SelectedCharacter != null)
             characterData = StaticData.SelectedCharacter;
 
@@ -288,7 +291,7 @@ public class CharacterInfo_1 : MonoBehaviour
         menuManager.LevelUpScene(upgradeDatas);
         currentExp -= maxExpValue;
         level += 1;
-        maxExpValue += Mathf.FloorToInt((float)(maxExpValue * 0.2));
+        maxExpValue += 4;
         expBar.SetMaxExp(level, maxExpValue);
     }
 
@@ -304,7 +307,7 @@ public class CharacterInfo_1 : MonoBehaviour
 
                     UpgradeData data = null;
 
-                    data = weaponSlotsManager.Find(item => item.weaponData.name == upgradeDatas[id].weaponData.name);
+                    data = weaponSlotsManager.Find(item => item.weaponData == upgradeDatas[id].weaponData);
 
                     if (data != null)
                     {
@@ -339,6 +342,7 @@ public class CharacterInfo_1 : MonoBehaviour
                 break;
             case 3: //ItemUnlock
                 {
+                    upgradeDatas[id].level = 1;
                     itemSlotsManager.Add(upgradeDatas[id]);
                     itemsManager.AddItem(upgradeDatas[id].itemsData);
                     inventorySlotsManager.ItemSlotUpdate(itemSlotsManager);
@@ -384,26 +388,27 @@ public class CharacterInfo_1 : MonoBehaviour
                 break;
         }
 
+        upgradeDatas.Clear();
         menuManager.LevelUpDone();
     }
 
-    public void UpgradeFromChest(int id)
+    public void UpgradeFromChest(UpgradeData upgradeDatasFromChest)
     {
-        switch ((int)upgradeDatasFromChest[id].upgradeType)
+        switch ((int)upgradeDatasFromChest.upgradeType)
         {
             case 0: //WeaponUpgrade
                 {
-                    upgradeDatasFromChest[id].acquired = true;
-                    levelUpSelectBuff.WeaponNextUpgradeInfo(upgradeDatasFromChest[id]);
-                    weaponsManager.AddWeapon(upgradeDatasFromChest[id].weaponData);
+                    upgradeDatasFromChest.acquired = true;
+                    levelUpSelectBuff.WeaponNextUpgradeInfo(upgradeDatasFromChest);
+                    weaponsManager.AddWeapon(upgradeDatasFromChest.weaponData);
 
                     UpgradeData data = null;
 
-                    data = weaponSlotsManager.Find(item => item.weaponData.name == upgradeDatasFromChest[id].weaponData.name);
+                    data = weaponSlotsManager.Find(item => item.weaponData.name == upgradeDatasFromChest.weaponData.name);
 
                     if(data != null)
                     {
-                        data.level = upgradeDatasFromChest[id].level;
+                        data.level = upgradeDatasFromChest.level;
 
                         if(data.level == 7)
                         {
@@ -416,32 +421,33 @@ public class CharacterInfo_1 : MonoBehaviour
                 break;
             case 1: //ItemUpgrade
                 {
-                    upgradeDatasFromChest[id].acquired = true;
-                    levelUpSelectBuff.ItemNextUpgradeInfo(upgradeDatasFromChest[id]);
-                    itemsManager.AddItem(upgradeDatasFromChest[id].itemsData);
+                    upgradeDatasFromChest.acquired = true;
+                    levelUpSelectBuff.ItemNextUpgradeInfo(upgradeDatasFromChest);
+                    itemsManager.AddItem(upgradeDatasFromChest.itemsData);
                     inventorySlotsManager.ItemSlotUpdate(itemSlotsManager);
                 }
                 break;
             case 2: //WeaponUnlock
                 {
-                    weaponSlotsManager.Add(upgradeDatasFromChest[id]);
-                    weaponsManager.AddWeapon(upgradeDatasFromChest[id].weaponData);
+                    weaponSlotsManager.Add(upgradeDatasFromChest);
+                    weaponsManager.AddWeapon(upgradeDatasFromChest.weaponData);
                     inventorySlotsManager.WeaponSlotUpdate(weaponSlotsManager);
-                    upgradeDatasFromChest[id].acquired = true;
+                    upgradeDatasFromChest.acquired = true;
 
-                    levelUpSelectBuff.WeaponAcquired(upgradeDatasFromChest[id]);
+                    levelUpSelectBuff.WeaponAcquired(upgradeDatasFromChest);
                 }
                 break;
             case 3: //ItemUnlock
                 {
-                    itemSlotsManager.Add(upgradeDatasFromChest[id]);
-                    itemsManager.AddItem(upgradeDatasFromChest[id].itemsData);
+                    upgradeDatasFromChest.level = 1;
+                    itemSlotsManager.Add(upgradeDatasFromChest);
+                    itemsManager.AddItem(upgradeDatasFromChest.itemsData);
                     inventorySlotsManager.ItemSlotUpdate(itemSlotsManager);
-                    upgradeDatasFromChest[id].acquired = true;
+                    upgradeDatasFromChest.acquired = true;
 
-                    levelUpSelectBuff.ItemAcquired(upgradeDatasFromChest[id]);
+                    levelUpSelectBuff.ItemAcquired(upgradeDatasFromChest);
 
-                    if (upgradeDatasFromChest[id].itemsData.name == "SlowHealth")
+                    if (upgradeDatasFromChest.itemsData.name == "SlowHealth")
                     {
                         slowHealthAcquired = true;
                     }
@@ -449,22 +455,22 @@ public class CharacterInfo_1 : MonoBehaviour
                 break;
             case 4: //StatUpgrade
                 {
-                    if (upgradeDatasFromChest[id].buffName.Contains("ATK"))
+                    if (upgradeDatasFromChest.buffName.Contains("ATK"))
                     {
                         attackPercent += 0.1f;
                         statUpdate();
                     }
-                    if (upgradeDatasFromChest[id].buffName.Contains("CRT"))
+                    if (upgradeDatasFromChest.buffName.Contains("CRT"))
                     {
                         critPercent += 2;
                         statUpdate();
                     }
-                    if (upgradeDatasFromChest[id].buffName.Contains("HP"))
+                    if (upgradeDatasFromChest.buffName.Contains("HP"))
                     {
                         healthPercent += 0.1f;
                         statUpdate();
                     }
-                    if (upgradeDatasFromChest[id].buffName.Contains("SPD"))
+                    if (upgradeDatasFromChest.buffName.Contains("SPD"))
                     {
                         speedPercent += 0.05f;
                         statUpdate();
@@ -474,7 +480,7 @@ public class CharacterInfo_1 : MonoBehaviour
             case 5: //GainCoin
                 {
                     coins += 50;
-                    countSys.SetCoinCount(coins);
+                    countSys.SetCoinCount(StaticData.totalCoin);
                 }
                 break;
         }
@@ -543,15 +549,19 @@ public class CharacterInfo_1 : MonoBehaviour
     {
         upgradeData.acquired = true;
         itemSlotsManager.Add(upgradeData);
+        levelUpSelectBuff.ItemAcquired(upgradeData);
         levelUpSelectBuff.ItemNextUpgradeInfo(upgradeData);
         itemsManager.AddItem(upgradeData.itemsData);
         inventorySlotsManager.ItemSlotUpdate(itemSlotsManager);
     }
 
+    public UpgradeData remove1 = null;
+    public UpgradeData remove2 = null;
+
     public void AddCollab(UpgradeData collab)
     {
-        UpgradeData remove1 = null;
-        UpgradeData remove2 = null;
+        remove1 = null;
+        remove2 = null;
 
         /*for(int i = 0; i < weaponSlotsManager.Count; i++)
         {
@@ -572,12 +582,9 @@ public class CharacterInfo_1 : MonoBehaviour
         remove2 = weaponSlotsManager.Find(item => item.weaponData == collab.colabInfo.weapon2);
 
         weaponSlotsManager.Remove(remove1);
-        weaponSlotsManager.Remove(remove2);
+        weaponSlotsManager.Remove(remove2); 
 
-        levelUpSelectBuff.RemoveEquipWeapon(remove1);
         weaponsManager.RemoveWeapon(remove1.weaponData);
-
-        levelUpSelectBuff.RemoveEquipWeapon(remove2);
         weaponsManager.RemoveWeapon(remove2.weaponData);
 
         weaponsManager.AddWeapon(collab.weaponData);
@@ -630,7 +637,9 @@ public class CharacterInfo_1 : MonoBehaviour
                     }
                     else
                     {
-                        GameOver();
+                        isDie = true;
+                        menuManager.GameOverScreen();
+                        overCoin.SetCoinGain(StaticData.totalCoin);
                     }
                 }
             }
@@ -650,12 +659,6 @@ public class CharacterInfo_1 : MonoBehaviour
                 }
             }
         }
-    }
-
-    public void GameOver()
-    {
-        menuManager.GameOverScreen();
-        overCoin.SetCoinGain(coins);
     }
 
     public void HealthByPercent(int health)
@@ -695,11 +698,11 @@ public class CharacterInfo_1 : MonoBehaviour
 
     public void statUpdate()
     {
-        characterStats.strenght = baseAttack + Mathf.FloorToInt((float)baseAttack * attackPercent);
+        characterStats.strenght = baseAttack + Mathf.CeilToInt((float)baseAttack * attackPercent);
         characterStats.crit = baseCrit + critPercent;
         characterStats.critDmg=baseCritDmg+critDamagePercent;
-        characterStats.maxHealth = baseHealth + Mathf.FloorToInt((float)baseHealth * healthPercent);
-        characterStats.speed = baseSpeed + Mathf.FloorToInt((float)baseSpeed * speedPercent);
+        characterStats.maxHealth = baseHealth + Mathf.CeilToInt((float)baseHealth * healthPercent);
+        characterStats.speed = baseSpeed + baseSpeed * speedPercent;
         statShow.SetAttack(characterStats.strenght);
         statShow.SetCrit(characterStats.crit);
         maxHealth = characterStats.maxHealth;
@@ -741,11 +744,16 @@ public class CharacterInfo_1 : MonoBehaviour
                     healthCheck = maxHealth * ((float)item.missionInfo.num / 100);
                     if (currentHealth <= healthCheck)
                         item.missionHolder.GetComponent<SetMission>().SetHPMissionComplete(item.missionInfo, true);
+
+                    if (StaticData.bigBossKill > 0)
+                        item.missionHolder.GetComponent<SetMission>().SetHPMissionComplete(item.missionInfo, false);
                 }
                 if (item.missionInfo.missionType.ToString() == "Kill")
                 {
                     item.missionHolder.GetComponent<SetMission>().SetKillMissionProgress(item.missionInfo, numberMonsterKilled);
                     if(numberMonsterKilled >= item.missionInfo.num)
+                        item.missionHolder.GetComponent<SetMission>().SetKillMissionComplete(item.missionInfo, false, numberMonsterKilled);
+                    if (numberMonsterKilled < item.missionInfo.num && isDie)
                         item.missionHolder.GetComponent<SetMission>().SetKillMissionComplete(item.missionInfo, true, numberMonsterKilled);
                 }
             }
