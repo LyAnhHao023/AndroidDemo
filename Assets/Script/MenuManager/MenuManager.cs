@@ -21,6 +21,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject _UpgradeAnvilResultUI;
     [SerializeField] private GameObject _UpgradeAnvilInfoHolderUI;
     [SerializeField] private GameObject _CollabAnvilUI;
+    [SerializeField] private GameObject _StageInfoUI;
     [SerializeField] private GameObject _AdsUI;
 
     private UpgradeSlotManager _slotManager;
@@ -76,6 +77,12 @@ public class MenuManager : MonoBehaviour
         _UpgradeAnvilResultUI.SetActive(false);
         _UpgradeAnvilInfoHolderUI.SetActive(false);
         _CollabAnvilUI.SetActive(false);
+        _StageInfoUI.SetActive(false);
+
+        if (StaticData.LevelType > 1)
+        {
+            missionUI.SetActive(false);
+        }
 
         isGameOver = false;
         isSelectBuff = false;
@@ -83,22 +90,13 @@ public class MenuManager : MonoBehaviour
 
         _slotManager = _UpgradeAnvilUI.GetComponent<UpgradeSlotManager>();
         _collabSlotManager = _CollabAnvilUI.GetComponent<CollabSlotManager>();
+
+        OpenStageInfo();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(timer >= 0)
-        {
-            timer -= Time.deltaTime;
-        }
-
-        if(timer < 0 && !missionShow)
-        {
-            missionUI.LeanMoveLocal(startMissionStep, tweenTime).setEase(tweenType).setIgnoreTimeScale(true);
-            missionShow = true;
-        }
-
         if (InputManager.instance.MenuOpenCloseInput)
         {
             if (!isGameOver && !isSelectBuff)
@@ -319,6 +317,23 @@ public class MenuManager : MonoBehaviour
         SkillHolder.SetActive(true);
         _UpgradeAnvilResultUI.SetActive(false);
         _UpgradeAnvilInfoHolderUI.SetActive(false);
+        Unpause();
+    }
+
+    public void OpenStageInfo()
+    {
+        _StageInfoUI.SetActive(true);
+        isPaused = true;
+
+        Time.timeScale = 0f;
+
+        EventSystem.current.SetSelectedGameObject(null);
+    }
+
+    public void CloseStageInfo()
+    {
+        _StageInfoUI.SetActive(false);
+
         Unpause();
     }
 }
