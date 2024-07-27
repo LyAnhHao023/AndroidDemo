@@ -20,7 +20,7 @@ public class OpenChest : MonoBehaviour
     [SerializeField] UpgradeButton upgradeButton;
     [SerializeField] MenuManager menuManager;
 
-    List<UpgradeData> upgradeDatas;
+    UpgradeData upgradeData;
 
     List<WeightedItem> items = new List<WeightedItem>
     {
@@ -30,6 +30,7 @@ public class OpenChest : MonoBehaviour
     };
 
     int currentIndex = -1;
+    int totalBuff;
 
     private void Awake()
     {
@@ -77,8 +78,7 @@ public class OpenChest : MonoBehaviour
 
     public void OpenC()
     {
-        upgradeDatas = selectBuff.GetUpgrades(GetRandomType(items));
-        characterInfo.upgradeDatasFromChest = upgradeDatas;
+        totalBuff = GetRandomType(items);
 
         currentIndex = -1;
 
@@ -89,6 +89,10 @@ public class OpenChest : MonoBehaviour
     {
         menuManager.CloseChestScene();
 
+        openButton.SetActive(true);
+        getBuffButton.SetActive(false);
+        ignoreBuffButton.SetActive(false);
+
         animator.SetBool("Open", false);
 
         buffHolder.transform.LeanScale(Vector2.zero, 0.5f).setIgnoreTimeScale(true);
@@ -96,13 +100,17 @@ public class OpenChest : MonoBehaviour
 
     public void Set()
     {
-        currentIndex++;
+        List<UpgradeData> upgradeDatas = selectBuff.GetUpgrades(1);
+
+        upgradeData = upgradeDatas.First();
 
         openButton.SetActive(false);
         getBuffButton.SetActive(true);
         ignoreBuffButton.SetActive(true);
 
-        upgradeButton.Set(upgradeDatas[currentIndex]);
+        upgradeButton.Set(upgradeData);
+
+        currentIndex++;
 
         buffHolder.transform.LeanScale(Vector2.one, 0.25f).setIgnoreTimeScale(true);
     }
@@ -111,12 +119,12 @@ public class OpenChest : MonoBehaviour
     {
         if (isGet)
         {
-            characterInfo.UpgradeFromChest(currentIndex);
+            characterInfo.UpgradeFromChest(upgradeData);
         }
 
         buffHolder.transform.LeanScale(Vector2.zero, 0f).setIgnoreTimeScale(true);
 
-        if (currentIndex < upgradeDatas.Count - 1)
+        if (currentIndex < totalBuff - 1)
         {
             Set();
         }
