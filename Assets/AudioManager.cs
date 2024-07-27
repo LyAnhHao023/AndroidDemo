@@ -99,6 +99,13 @@ public class AudioManager : MonoBehaviour
         return Background;
     }
 
+    public void SetBackGround(AudioClip bgm)
+    {
+        backGroundMusicSource.Stop();
+        backGroundMusicSource.clip = bgm;
+        backGroundMusicSource.Play();
+    }
+
     public void SetActiveBackGroundMusic(bool isActive)
     {
 

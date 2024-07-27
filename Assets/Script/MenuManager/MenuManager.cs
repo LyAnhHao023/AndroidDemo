@@ -23,6 +23,10 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject _CollabAnvilUI;
     [SerializeField] private GameObject _StageInfoUI;
     [SerializeField] private GameObject _AdsUI;
+    [SerializeField] private GameObject _PauseButton;
+    [SerializeField] private GameObject _SkillButtonUI;
+    [SerializeField] private Image _JoyStickUI;
+    [SerializeField] private Image _JoyStickHandle;
 
     private UpgradeSlotManager _slotManager;
     private CollabSlotManager _collabSlotManager;
@@ -64,6 +68,9 @@ public class MenuManager : MonoBehaviour
     float timer = 10;
     bool missionShow = false;
 
+    Color currentColor;
+    Color fadeColor;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -78,6 +85,18 @@ public class MenuManager : MonoBehaviour
         _UpgradeAnvilInfoHolderUI.SetActive(false);
         _CollabAnvilUI.SetActive(false);
         _StageInfoUI.SetActive(false);
+        _PauseButton.SetActive(true);
+
+        currentColor = _JoyStickUI.color;
+        fadeColor = _JoyStickHandle.color;
+
+        currentColor.a = 0.5254902f;
+        fadeColor.a = 0f;
+
+        _JoyStickUI.color = currentColor;
+        _JoyStickHandle.color = currentColor;
+
+        _SkillButtonUI.SetActive(true);
 
         if (StaticData.LevelType > 1)
         {
@@ -94,30 +113,16 @@ public class MenuManager : MonoBehaviour
         OpenStageInfo();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (InputManager.instance.MenuOpenCloseInput)
-        {
-            if (!isGameOver && !isSelectBuff)
-            {
-                if (!isPaused)
-                {
-                    Pause();
-                }
-                else
-                {
-                    Unpause();
-                }
-            }
-        }
-            
-    }
-
     public void Pause()
     {
         isPaused = true;
         Time.timeScale = 0f;
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
+        _SkillButtonUI.SetActive(false);
 
         OpenMainMenu();
     }
@@ -126,6 +131,12 @@ public class MenuManager : MonoBehaviour
     {
         isPaused = false;
         Time.timeScale = 1f;
+        _PauseButton.SetActive(true);
+
+        _JoyStickUI.color = currentColor;
+        _JoyStickHandle.color = currentColor;
+
+        _SkillButtonUI.SetActive(true);
 
         CloseAllMenus();
     }
@@ -174,6 +185,12 @@ public class MenuManager : MonoBehaviour
         Time.timeScale = 0f;
 
         _AdsUI.SetActive(true);
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
+        _SkillButtonUI.SetActive(false);
     }
 
     public void GameOverScreen(bool stageComplete = false)
@@ -186,6 +203,12 @@ public class MenuManager : MonoBehaviour
         characterInfo.MissionCheck();
 
         _gameOverUI.SetActive(true);
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
+        _SkillButtonUI.SetActive(false);
 
         missionUI.LeanMoveLocal(missionStep, tweenTime).setEase(tweenType).setIgnoreTimeScale(true);
 
@@ -223,6 +246,12 @@ public class MenuManager : MonoBehaviour
         Time.timeScale = 0f;
         _levelUpUI.SetActive(true);
         levelUpEffect.SetActive(true);
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
+        _SkillButtonUI.SetActive(false);
 
         _levelUpEffect.Play();
 
@@ -253,6 +282,12 @@ public class MenuManager : MonoBehaviour
         Time.timeScale = 0f;
 
         _OpenChestUI.SetActive(true);
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
+        _SkillButtonUI.SetActive(false);
         EventSystem.current.SetSelectedGameObject(null);
     }
 
@@ -273,6 +308,12 @@ public class MenuManager : MonoBehaviour
         _UpgradeAnvilUI.SetActive(true);
         Inventory.SetActive(false);
         SkillHolder.SetActive(false);
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
+        _SkillButtonUI.SetActive(false);
         isPaused = true;
         isSelectBuff = true;
 
@@ -300,6 +341,12 @@ public class MenuManager : MonoBehaviour
         _CollabAnvilUI.SetActive(true);
         Inventory.SetActive(false);
         SkillHolder.SetActive(false);
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
+        _SkillButtonUI.SetActive(false);
         isPaused = true;
         isSelectBuff = true;
 
@@ -323,6 +370,11 @@ public class MenuManager : MonoBehaviour
     public void OpenStageInfo()
     {
         _StageInfoUI.SetActive(true);
+        _PauseButton.SetActive(false);
+
+        _JoyStickUI.color = fadeColor;
+        _JoyStickHandle.color = fadeColor;
+
         isPaused = true;
 
         Time.timeScale = 0f;
