@@ -29,7 +29,7 @@ public class playerMove : MonoBehaviour
     private void Update()
     {
 
-        if(isCanMove)
+        if(isCanMove && Time.timeScale > 0)
         {
             moveInput.x =joystick.Horizontal;
             moveInput.y = joystick.Vertical;
